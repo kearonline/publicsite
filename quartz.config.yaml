@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: The Kearlog
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -21,24 +21,24 @@ configuration:
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
+        light: "#DED9C3"
+        lightgray: "#C9C4AD"
+        gray: "#8A8672"
+        darkgray: "#45423A"
+        dark: "#26241F"
+        secondary: "#23634F"
+        tertiary: "#349176"
+        highlight: rgba(52, 145, 118, 0.15)
         textHighlight: "#fff23688"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
+        light: "#161A18"
+        lightgray: "#2F3532"
+        gray: "#6C7570"
+        darkgray: "#CFCAB5"
+        dark: "#DED9C3"
+        secondary: "#5FB89B"
+        tertiary: "#349176"
+        highlight: rgba(52, 145, 118, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
   - source: "@quartz-community/created-modified-date"
