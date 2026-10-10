@@ -230,8 +230,8 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        Substack: https://substack.com/@kear
+        Instagram: https://www.instagram.com/kearthod/
     layout:
       position: footer
       priority: 50
