@@ -3,7 +3,7 @@ title: 2026 general election voter guide
 draft: false
 tags:
   - 2026-election
-published: 2026-10-10
+published: 2026-10-11
 cssclasses:
   - guide
 ---
@@ -83,7 +83,7 @@ cssclasses:
 **Prop 39, Voter ID:** NO <code class="red">Opposed</code>
 **Prop 40, Billionaire tax:** YES <code class="green">Endorsed</code>
 **Prop 41, Tax audits:** NO <code class="red">Opposed</code>
-**Prop 42, **Property taxes:** NO <code class="red">Opposed</code>
+**Prop 42, Property taxes:** NO <code class="red">Opposed</code>
 **Prop 43, Tax threshold:** NO <code class="red">Opposed</code> 
 **Prop 44, Clinic funding:** YES <code class="green">Recommended</code>
 **Prop 45, Environmental review:** YES <code class="green">Recommended</code>
