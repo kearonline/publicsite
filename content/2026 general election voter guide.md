@@ -4,86 +4,86 @@ draft: false
 tags:
   - 2026-election
 published: 2026-10-10
+cssclasses:
+  - guide
 ---
-**L.A. Community College District**
-Board of Trustees, Seat 2: Adriana Cabrera ==🟡(Recommended)==
-Board of Trustees, Seat 4: Darryn Harris
-Board of Trustees, Seat 6: Randall Winston
+# **City of Los Angeles**
+**Mayor:** Nithya Raman <code class="green">Endorsed</code>
+**City Attorney:** Marissa Roy <code class="green">Endorsed</code>
+**Councilmember, Dist. 3:** Barri Worth Girvan <code class="yellow">Recommended</code>
+**Councilmember, Dist. 9:** Estuardo Mazariegos <code class="green">Endorsed</code>
 
-**City of Los Angeles**
-Mayor: Nithya Raman ==🟢(Endorsed)==
-City Attorney: Marissa Roy ==🟢(Endorsed)==
-Councilmember, Dist. 3: Barri Worth Girvan ==🟡(Recommended)==
-Councilmember, Dist. 9: Estuardo Mazariegos ==🟢(Endorsed)== 
+# **County of Los Angeles**
+**Sheriff:** Alex Villanueva <code class="red">Opposed</code>
+**Superior Court Judge, No. 64:** Rhonda Haymon <code class="yellow">Recommended</code>
+**Superior Court Judge, No. 65:** Anna Slotkey Reitano <code class="gray">No Recommendation</code>
+**Superior Court Judge, No. 87:** Anthony Baine <code class="gray">No Recommendation</code>
+**Superior Court Judge, No. 131:** David Ross <code class="yellow">Recommended</code>
+**Community College Board of Trustees, Seat 2:** Adriana Cabrera <code class="yellow">Recommended</code>
+**Community College Board of Trustees, Seat 4:** Darryn Harris <code class="gray">No Viable Alternative</code>
+**Community College Board of Trustees, Seat 6:** Randall Winston <code class="gray">No Viable Alternative</code>
 
-**County of Los Angeles**
-Sheriff: Alex Villanueva ==🔴(Opposed)==
-Superior Court Judge, No. 64: Rhonda Haymon ==🟡(Recommended)==
-Superior Court Judge, No. 65: Anna Slotkey Reitano
-Superior Court Judge, No. 87: Anthony Baine
-Superior Court Judge, No. 131: David Ross ==🟡(Recommended)== 
+# **State of California**
+**State Senator, Dist. 20:** Caroline Menjivar <code class="yellow">Recommended</code>
+**State Senator, Dist. 24:** John Erickson <code class="green">Endorsed</code>
+**State Senator, Dist. 26:** Sarah Rascon <code class="gray">No Recommendation</code> 
+**State Senator, Dist. 28:** Lola Smallwood-Cuevas <code class="yellow">Recommended</code>
+**Assemblymember, Dist. 40:** Pilar Schiavo <code class="yellow">Recommended</code>
+**Assemblymember, Dist. 43:** Celeste Rodriguez <code class="gray">No Viable Alternative</code>
+**Assemblymember, Dist. 44:** Nick Schultz <code class="yellow">Recommended</code>
+**Assemblymember, Dist. 46:** Jesse Gabriel <code class="gray">No Viable Alternative</code>
+**Assemblymember, Dist. 51:** Colin Hernandez <code class="green">Endorsed</code>
+**Assemblymember, Dist. 52:** Jessica Caloza <code class="gray">No Viable Alternative</code>
+**Assemblymember, Dist. 54:** Mark Gonzalez <code class="gray">No Viable Alternative</code>
+**Assemblymember, Dist. 55:** Isaac Bryan <code class="gray">No Viable Alternative</code>
+**Assemblymember, Dist. 57:** Sade Elhawary <code class="gray">No Viable Alternative</code>
+**Assemblymember, Dist. 61:** Tina McKinnor <code class="yellow">Recommended</code> 
+**Assemblymember, Dist. 65:** Ayanna Davis <code class="gray">No Viable Alternative</code>
+**Governor:** Xavier Becerra <code class="gray">No Viable Alternative</code>
+**Lieutenant Governor:** Fiona Ma <code class="gray">No Viable Alternative</code>
+**Secretary of State:** Shirley Weber <code class="gray">No Viable Alternative</code>
+**Controller:** Malia Cohen <code class="gray">No Viable Alternative</code>
+**Treasurer:** Eleni Kounalakis <code class="gray">No Viable Alternative</code>
+**Attorney General:** Rob Bonta <code class="gray">No Viable Alternative</code>
+**Insurance Commissioner:** Jane Kim <code class="yellow">Recommended</code> 
+**Board of Equalization, Dist. 3:** Sam Sukaton <code class="yellow">Recommended</code> 
+**Superintendent of Public Instruction:** Sonja Shaw <code class="red">Opposed</code>
 
-**State of California**
-State Senator, Dist. 20: Caroline Menjivar ==🟡(Recommended)== 
-State Senator, Dist. 24: John Erickson ==🟢(Endorsed)==
-State Senator, Dist. 26: Sarah Rascon
-State Senator, Dist. 28: Lola Smallwood-Cuevas ==🟡(Recommended)== 
-Assemblymember, Dist. 40: Pilar Schiavo ==🟡(Recommended)== 
-Assemblymember, Dist. 43: Celeste Rodriguez
-Assemblymember, Dist. 44: Nick Schultz ==🟡(Recommended)== 
-Assemblymember, Dist. 46: Jesse Gabriel
-Assemblymember, Dist. 51: Colin Hernandez ==🟢(Endorsed)==
-Assemblymember, Dist. 52: Jessica Caloza
-Assemblymember, Dist. 54: Mark Gonzalez
-Assemblymember, Dist. 55: Isaac Bryan
-Assemblymember, Dist. 57: Sade Elhawary
-Assemblymember, Dist. 61: Tina McKinnor ==(Recommended)== 
-Assemblymember, Dist. 65: Ayanna Davis
-Governor: Xavier Becerra
-Lieutenant Governor: Fiona Ma
-Secretary of State: Shirley Weber
-Controller: Malia Cohen
-Treasurer: Eleni Kounalakis
-Attorney General: Rob Bonta
-Insurance Commissioner: Jane Kim ==(Recommended)== 
-Board of Equalization, Dist. 3: Sam Sukaton ==(Recommended)== 
-Supt of Public Instruction: Sonja Shaw ==🔴(Opposed)==
+# **United States Congress**
+**Representative, Dist. 29:** Angelica Dueñas <code class="yellow">Recommended</code>
+**Representative, Dist. 30:** Laura Friedman <code class="yellow">Recommended</code>
+**Representative, Dist. 32:** Brad Sherman <code class="gray">No Viable Alternative</code>
+**Representative, Dist. 34:** Angela Gonzales-Torres <code class="green">Endorsed</code>
+**Representative, Dist. 35:** Norma Torres <code class="gray">No Viable Alternative</code>
+**Representative, Dist. 36:** Ted Lieu <code class="gray">No Viable Alternative</code>
+**Representative, Dist. 37:** Samantha Mota <code class="yellow">Recommended</code>
+**Representative, Dist. 38:** Hilda Solis <code class="gray">No Viable Alternative</code>
+**Representative, Dist. 44:** Nanette Barragán <code class="gray">No Viable Alternative</code>
 
-**United States Congress**
-Representative, Dist. 29: Angelica Dueñas ==(Recommended)==
-Representative, Dist. 30: Laura Friedman ==(Recommended)==
-Representative, Dist. 32: Brad Sherman
-Representative, Dist. 34: Angela Gonzales-Torres ==🟢(Endorsed)==
-Representative, Dist. 35: Norma Torres
-Representative, Dist. 36: Ted Lieu
-Representative, Dist. 37: Samantha Mota ==(Recommended)==
-Representative, Dist. 38: Hilda Solis
-Representative, Dist. 44: Nanette Barragán
+# **Local Propositions**
+**Prop TE, ULA tax exemption:** NO <code class="red">Endorsed</code>
+**Cht Amd LA, Infrastructure/budget:** YES <code class="green">Endorsed</code>
+**Cht Amd PL, Planning authority:** YES <code class="green">Endorsed</code>
+**Cht Amd EE, Ethics and elections:** NO <code class="gray">No Recommendation</code>
+**Cht Amd PRK, Parks budget:** YES <code class="green">Recommended</code>
+**Cht Amd PRT, Port budget:** YES <code class="green">Recommended</code>
+**Cht Amd SC, LAUSD campaign rules:** YES <code class="green">Recommended</code>
+**Measure FD, Fire Dept sales tax:** NO <code class="red">Recommended</code>
+**Measure A, Public union disputes:** NO <code class="red">Recommended</code>
+**Measure E, Ethics commission:** YES <code class="green">Endorsed</code>
 
-**Local Propositions**
-Prop TE, ULA tax exemption: NO ==🔴(Endorse NO)==
-Cht Amd LA, Infrastructure/budget: YES ==🟢(Endorse YES)==
-Cht Amd PL, Planning authority: YES ==🟢(Endorse YES)==
-Cht Amd EE, Ethics and elections: YES ==🟡(Recommended)==
-Cht Amd PRK, Parks budget: YES ==🟡(Recommended)==
-Cht Amd PRT, Port budget: YES ==🟡(Recommended)==
-Cht Amd SC, LAUSD campaign rules: YES ==🟡(Recommended)==
-Measure FD, Fire Dept sales tax: NO ==🟡(Recommended)==
-Measure A, Public union disputes: NO ==🟡(Recommended)==
-Measure E, Ethics commission: YES ==🟢(Endorse YES)==
-
-**State Propositions**
-Prop 1, Housing bonds: YES ==🟡(Recommended)==
-Prop 2, Rainy day fund: YES ==🟡(Recommended)==
-Prop 3, High-income tax: YES ==🟢(Endorse YES)==
-Prop 4, Public fundraising: YES ==🟢(Endorse YES)==
-Prop 5, Recall reform: YES ==🟢(Endorse YES)==
-Prop 37, Homebuyers loan: NO ==🟡(Recommended)==
-Prop 38, Research bond: NO
-Prop 39, Voter ID: NO ==🔴(Endorse NO)==
-Prop 40, Billionaire tax: YES ==🟢(Endorse YES)==
-Prop 41, Tax audits: NO ==🔴(Endorse NO)==
-Prop 42, Property taxes: NO ==🔴(Endorse NO)==
-Prop 43, Tax threshold: NO ==🔴(Endorse NO)== 
-Prop 44, Clinic funding: YES ==🟡(Recommended)==
-Prop 45, Environmental review: YES ==🟡(Recommended)==
+# **State Propositions**
+**Prop 1, Housing bonds:** YES <code class="green">Recommended</code>
+**Prop 2, Rainy day fund:** YES <code class="green">Recommended</code>
+**Prop 3, High-income tax:** YES <code class="green">Endorsed</code>
+**Prop 4, Public fundraising:** YES <code class="green">Endorsed</code>
+**Prop 5, Recall reform:** YES <code class="green">Endorsed</code>
+**Prop 37, Homebuyers loan:** NO <code class="red">Recommended</code>
+**Prop 38, Research bond:** NO <code class="gray">No Recommendation</code>
+**Prop 39, Voter ID:** NO <code class="red">Opposed</code>
+**Prop 40, Billionaire tax:** YES <code class="green">Endorsed</code>
+**Prop 41, Tax audits:** NO <code class="red">Opposed</code>
+**Prop 42, **Property taxes:** NO <code class="red">Opposed</code>
+**Prop 43, Tax threshold:** NO <code class="red">Opposed</code> 
+**Prop 44, Clinic funding:** YES <code class="green">Recommended</code>
+**Prop 45, Environmental review:** YES <code class="green">Recommended</code>
