@@ -1,0 +1,20 @@
+---
+title: Mission Bay field notes
+draft: false
+tags:
+  - ucsd
+  - usp142b
+  - coursework
+published: 2026-04-28
+---
+*The following is an excerpt from field notes produced during a visit to Mission Bay in the City of San Diego, as part of the Urban Challenges in Homelessness course sequence. This visit involved conducting interviews with unhoused residents of the area.*
+
+Mission Bay was a meaningful first outing for this portion of the Urban Challenges course where I saw first-hand the tight-knit communities and sense of camaraderie that can form among unhoused populations. I saw “we keep us safe” exemplified in every interaction I and our class had and observed.
+
+Our class arrived to 1970s-era classic rock as volunteers began preparing the outdoor kitchen for a meal and essential needs distribution event. We saw people fishing just off shore, others lounging under the large tree canopy, and many truly just hanging out and being in community with one another. 
+
+I was initially anxious at the thought of having a conversation with someone at the site given my fear of saying the wrong thing or reacting too strongly or anything we’d covered in our class. But my nerves were quickly soothed as me and my conversation partner fully dove into it with an unhoused man who I will call Joe. He described being known as the protector of the area and the enforcer of the peace; leading those who keep the park safe; and doing his best to keep out those that need to be kept out and maintaining order within. It was striking to meet someone with such a strong sense of justice who takes it into his own hands to enforce, given the lack of support, trust, and proper treatment towards him and other unhoused people at the hands of actual law enforcement. Directly contradicting many stereotypes, our conversation gave complex insights into Joe, someone that many would immediately only see as a criminal (due to his background) or assume is unhoused due to poor choices (though being unhoused was his choice). I also found it to be so moving when Joe talked about having hope for his future due to a recent major personal event; that he let my partner, Prof. Lewis, and I have a glimpse into his personal life indicated a mutual level of trust that was so heartwarming to me.
+
+Wrapping up the day was the meal and essential needs distribution event that every student that attended helped out with, creating something that resembled an assembly line. This event was organized by an external group led by someone who was formerly unhoused, and it was another reminder that most of the time, the community that forms among unhoused populations are strong; that those who are fortunate enough to emerge from such situations are often inclined to give back, untethered to location but to a shared adverse experience. To my end, I was given the task of handing out water bottles to every person, a relatively low-pressure and public-facing role that allowed me to see everyone in line face-to-face for a few seconds each; to take a brief moment to really acknowledge the humanity of those who were there, with some even engaging in some friendly chit-chat. Like much of this course already has throughout, this visual only reinforced the diversity of the unhoused population and the many kinds of people from all walks of life that seek out these services. Watching people self-order their line (creating systems), expressing gratitude, and fully embracing their friends including the organizer was a particularly lovely sight to see.
+
+Spending time to visit the Mission Bay site and take the opportunity to volunteer for the community was quite a good way to slow down and ground myself in the midst of such a busy university experience, especially this quarter. It served as yet another reminder of what so many of us take for granted in a physical sense but also of what so many of us are continually seeking in a real community where everyone has each other’s backs.

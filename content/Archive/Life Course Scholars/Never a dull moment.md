@@ -3,6 +3,8 @@ title: Never a dull moment
 draft: false
 tags:
   - ucsd
+  - usp141a
+  - coursework
 published: 2025-10-22
 ---
 It’s been a little over a month since our retreat, my first engagement as a Life Course Scholar program in the 2025-2026 cohort, and since then, there hasn’t been a dull moment. Our first outside ‘field trip’ to the Gary and Mary West Senior Wellness Center earlier this month showed me just a taste of how enriching this experience would come to be and continue to be. Beyond marking a surprising personal milestone as the first time I’d ever driven on any freeway as a result of peer pressure (I’m partially joking), it also proved to be one of great significance to me due to the nature of the single conversation I had with one of their regulars while serving lunch.

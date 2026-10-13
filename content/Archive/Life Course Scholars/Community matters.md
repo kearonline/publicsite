@@ -3,6 +3,8 @@ title: Community matters
 draft: false
 tags:
   - ucsd
+  - usp141a
+  - coursework
 published: 2025-11-22
 ---
 The past few weeks in the Life Course Scholars program have been nothing short of inspiring, saddening, and revelatory; sometimes all at once. It all opened my eyes to the depth and the variety of experiences shared by the older adults, a source of motivation in that by comparison, my life has only begun. It highlighted a sobering reality by showing certain extremes in the living conditions of older adults, a natural byproduct of income inequality that manifests itself in how comfortable people are allowed to live in old age. All in all, these experiences further reinforced that the aging experience is incredibly diverse and that, contrary to prior expectations, this kind of intergenerational dialogue is welcomed by all, if not most, and needed more than ever.
