@@ -85,5 +85,5 @@ cssclasses:
 **Prop 41, Tax audits:** NO <code class="red">Opposed</code>
 **Prop 42, Property taxes:** NO <code class="red">Opposed</code>
 **Prop 43, Tax threshold:** NO <code class="red">Opposed</code> 
-**Prop 44, Clinic funding:** YES <code class="green">Recommended</code>
+**Prop 44, Clinic funding:** NO <code class="red">Opposed</code>
 **Prop 45, Environmental review:** YES <code class="green">Recommended</code>
