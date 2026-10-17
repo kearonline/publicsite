@@ -1,5 +1,5 @@
 ---
-title: Safe sleeping lot, 2nd visit field notes
+title: Safe sleeping lot, 2nd visit
 draft: false
 tags:
   - ucsd
