@@ -3,7 +3,7 @@ title: The best songs of 2025
 draft: false
 tags:
   - music
-published: "2025"
+published: 2026-01-01
 ---
 <code class="gray">100</code> Anxious, "Some Girls"
 <code class="gray">99</code> Dews Peghorn, "Sweet Cherry Lipstick"
