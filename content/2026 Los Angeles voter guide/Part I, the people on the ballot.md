@@ -84,7 +84,7 @@ Here's a [voter guide on voter guides](https://lataco-embeds.netlify.app/guide_o
 
 > [!hint] Superior Court Judge, No. 65: Anna Slotkey Reitano <code class="blue">Recommended</code>
 
-> [!hint] Superior Court Judge, No. 87: Anthony Baine <code class="yellow">Recommended</code>
+> [!hint] Superior Court Judge, No. 87: Anthony Baine <code class="blue">Recommended</code>
 
 > [!hint] Superior Court Judge, No. 131: David Ross <code class="blue">Recommended</code>
 
