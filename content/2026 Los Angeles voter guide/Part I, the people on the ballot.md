@@ -78,7 +78,7 @@ Here's a [voter guide on voter guides](https://lataco-embeds.netlify.app/guide_o
 
 # County of Los Angeles
 
->[!caution]- Sheriff: Robert Luna <code class="orange">No Viable Alternative</code>
+>[!caution] Sheriff: Robert Luna <code class="orange">No Viable Alternative</code>
 
 > [!hint] Superior Court Judge, No. 64: Rhonda Haymon <code class="blue">Recommended</code>
 
