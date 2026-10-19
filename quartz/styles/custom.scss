@@ -4,7 +4,8 @@
 code.red,
 code.green,
 code.yellow,
-code.gray {
+code.gray
+code.orange {
   color: var(--dark);
   border-radius: 4px;
   padding: 0.1rem 0.3rem;
@@ -26,11 +27,21 @@ code.gray {
   background: rgba(130, 130, 130, 0.28);
 }
 
+code.orange {
+  background: rgba(219, 137, 66, 0.3);
+}
+
+code.blue {
+  background: rgba(0, 184, 212, 0.3);
+}
+
 :root[saved-theme="dark"] {
   code.red { background: rgba(220, 50, 47, 0.38); }
   code.green { background: rgba(52, 145, 118, 0.4); }
   code.yellow { background: rgba(255, 220, 40, 0.3); }
   code.gray { background: rgba(160, 160, 160, 0.3); }
+  code.orange { background: rgba(219, 137, 66, 0.38); }
+  code.blue { background: rgba(0, 184, 212, 0.38); }
 }
 
 .guide p {
