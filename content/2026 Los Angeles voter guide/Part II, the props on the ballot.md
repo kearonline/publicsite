@@ -1,5 +1,5 @@
 ---
-title: 2026 general election voter guide
+title: Part II, the props on the ballot
 draft: true
 tags:
   - 2026-election

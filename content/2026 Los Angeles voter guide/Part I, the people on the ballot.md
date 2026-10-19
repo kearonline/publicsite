@@ -1,5 +1,5 @@
 ---
-title: Your guide to the 2026 general election in Los Angeles, Calif.
+title: Part I, the people on the ballot
 draft: false
 tags:
   - 2026-election
