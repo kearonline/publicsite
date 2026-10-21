@@ -14,10 +14,10 @@ configuration:
     - .obsidian
   theme:
     fontOrigin: googleFonts
-    cdnCaching: true
+    cdnCaching: false
     typography:
-      header: Figtree
-      body: Figtree
+      header: DM Sans
+      body: DM Sans
       code: Google Sans Mono
     colors:
       lightMode:
