@@ -17,8 +17,8 @@ configuration:
     cdnCaching: true
     typography:
       header: Schibsted Grotesk
-      body: Verdana
-      code: Fira Mono
+      body: DM Sans
+      code: IBM Plex Mono
     colors:
       lightMode:
         light: "#DED9C3"
