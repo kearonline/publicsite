@@ -22,6 +22,8 @@ Nonetheless, there are some genuinely difficult choices to make this year, many 
 
 Happy voting!
 
+# Methodology
+
 ## Priorities
 
 I'm rooting for candidates who:

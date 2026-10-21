@@ -1,5 +1,5 @@
 ---
-title: L.A. Continuum of Care meeting
+title: L.A. Continuum of Care selection meeting
 draft: false
 tags:
   - homeless-services
