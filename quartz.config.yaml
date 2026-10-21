@@ -16,10 +16,7 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-#     header: Schibsted Grotesk
-#     body: Source Sans Pro
-#     code: IBM Plex Mono
-      header: Verdana
+      header: Schibsted Grotesk
       body: Verdana
       code: Fira Mono
     colors:
