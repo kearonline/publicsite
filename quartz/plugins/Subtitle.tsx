@@ -1,5 +1,5 @@
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../quartz/components/types"
-import { classNames } from "../quartz/util/theme"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "/Users/kevin/publicsite/quartz/components/types"
+import { classNames } from "/Users/kevin/publicsite/quartz/util/theme"
 
 function Subtitle({ fileData, displayClass }: QuartzComponentProps) {
   // Grab the dynamic subtitle from the page frontmatter
