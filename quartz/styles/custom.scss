@@ -1,6 +1,20 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// Only target code blocks on pages with the "no-code-wrap" frontmatter class
+body.no-code-wrap {
+  pre code {
+    white-space: pre !important;
+    word-break: normal !important;
+    word-wrap: normal !important;
+  }
+
+  pre {
+    overflow-x: auto !important;
+  }
+}
+
 code.red,
 code.green,
 code.yellow,
