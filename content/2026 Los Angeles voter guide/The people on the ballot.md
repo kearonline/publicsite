@@ -54,7 +54,7 @@ I distinguish between different levels of recommendation:
 * <code class="blue">Recommended</code> I would absolutely vote for this candidate, but I have some reservations about them, their viability, or their edge over the other option.
 * <code class="orange">No Viable Alternative</code> I would still vote for this candidate purely as a form of harm reduction, as there is no truly 'good' option available for this seat in this election.
 * <code class="gray">Safe Seat</code> This non-endorsed candidate is likely to win this election.
-* *** This candidate is an incumbent.
+* <code class="gray">*</code> This candidate is an incumbent.
 
 ## Further reading
 
@@ -93,9 +93,11 @@ Here's a [voter guide on voter guides](https://lataco-embeds.netlify.app/guide_o
 
 ## City Council
 
-> [!hint]- Councilmember, Dist. 3: Barri Worth Girvan <code class="blue">Recommended</code>
+> [!success]- Councilmember, Dist. 3: Barri Worth Girvan <code class="green">Endorsed</code>
+> Barri Worth Girvan, an ally of Valley progressive powerhouse and reformist champion Supervisor Lindsey Horvath, is the clear choice for this district. While she would fit squarely in the mainstream of the progressive bloc in the City Council, a la Katy Yaroslavsky one district down, she is a good fit and our best shot at getting a progressive elected in this moderately left-leaning district.
 
 > [!success]- Councilmember, Dist. 9: Estuardo Mazariegos <code class="green">Endorsed</code>
+> Estuardo Mazariegos, a longtime community organizer with ACCE Action and decades-long history championing grassroots movements throughout South Central, would give this district the thoughtful, on-the-ground representation that it deserves and has lacked with embattled incumbent Curren Price at the mantle. The contrast in options in this election is striking: a candidate who rejects corporate donations and the mainstream L.A. political-labor establishment and another who's propped up by those powerful interests. I know who I'd vote for.
 
 # County of Los Angeles
 
