@@ -1,10 +1,11 @@
 ---
-title: Part II, the props on the ballot
+title: The measures on the ballot
 draft: true
 tags:
   - 2026-election
-published: 2026-10-11
+published: 2026-10-23
 cssclasses:
+subtitle: 2026 Los Angeles voter guide, Part II
 ---
 # Local Propositions
 

@@ -41,6 +41,12 @@ configuration:
         highlight: rgba(52, 145, 118, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
+  - source: "./plugins/Subtitle"
+    enabled: true
+    layout:
+      position: "beforeBody"  # Choices: left, right, beforeBody, afterBody
+      priority: 10            # Lower numbers render higher up in that section
+      condition: "not-index"  # Optional: hides it on your main home page
   - source: "@quartz-community/created-modified-date"
     enabled: true
     options:
