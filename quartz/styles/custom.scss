@@ -3,7 +3,7 @@
 // put your custom CSS here!
 
 // Only target code blocks on pages with the "no-code-wrap" frontmatter class
-body.no-code-wrap {
+//body.no-code-wrap {
   pre code {
     white-space: pre !important;
     word-break: normal !important;
@@ -13,6 +13,10 @@ body.no-code-wrap {
   pre {
     overflow-x: auto !important;
   }
+//}
+
+:not(pre) > code {
+  white-space: nowrap;
 }
 
 code.red,
