@@ -51,7 +51,9 @@ This election cycle, I've served as a volunteer Field Lead and Design Creative L
 I distinguish between different levels of recommendation:
 * <code class="green">Endorsed</code> I unequivocally believe this candidate is the best option for this seat, and would volunteer my time or money to get them elected.
 * <code class="blue">Recommended</code> I would absolutely vote for this candidate, but I have some reservations about them, their viability, or their edge over the other option.
-* <code class="orange">No Viable Alternative</code> I would still vote for this candidate purely as a form of harm reduction, as there are no 'good' options for this seat.
+* <code class="orange">No Viable Alternative</code> I would still vote for this candidate purely as a form of harm reduction, as there is no truly 'good' option available for this seat in this election.
+* <code class="gray">Safe Seat</code> This non-endorsed candidate is likely to win this election.
+* *** This candidate is an incumbent.
 
 ## Further reading
 
@@ -64,7 +66,7 @@ I used these voter guides to help inform my votes and recommendations:
 
 Here's a [voter guide on voter guides](https://lataco-embeds.netlify.app/guide_of_guides_nov2026.html) by *L.A. Taco*, and more information on [how to register and cast your vote](https://www.sos.ca.gov/elections) by the *California Secretary of State*.
 
-**Let's get to it!**
+**Let's get to it!** Contact me if you have any questions about any pick.
 
 # City of Los Angeles
 
@@ -96,7 +98,7 @@ Here's a [voter guide on voter guides](https://lataco-embeds.netlify.app/guide_o
 
 # County of Los Angeles
 
->[!caution] Sheriff: Robert Luna <code class="orange">No Viable Alternative</code>
+>[!caution] Sheriff: Robert Luna* <code class="orange">No Viable Alternative</code>
 
 ## Superior Court
 
@@ -112,80 +114,80 @@ Here's a [voter guide on voter guides](https://lataco-embeds.netlify.app/guide_o
 
 > [!hint] Trustee, Seat 2: Adriana Cabrera <code class="blue">Recommended</code>
 
-> [!caution] Trustee, Seat 4: Darryn Harris <code class="orange">No Viable Alternative</code>
+> [!caution] Trustee, Seat 4: Darryn Harris <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
 
-> [!caution] Trustee, Seat 6: Randall Winston <code class="orange">No Viable Alternative</code>
+> [!caution] Trustee, Seat 6: Randall Winston <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
 
 # State of California
 
-> [!caution] Governor: Xavier Becerra <code class="orange">No Viable Alternative</code>
+> [!caution] Governor: Xavier Becerra <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
 
-> [!caution] Lieutenant Governor: Fiona Ma <code class="orange">No Viable Alternative</code>
+> [!caution] Lieutenant Governor: Fiona Ma <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
 
-> [!caution] Secretary of State: Shirley Weber <code class="orange">No Viable Alternative</code>
+> [!caution] Secretary of State: Shirley Weber* <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
 
-> [!caution] Controller: Malia Cohen <code class="orange">No Viable Alternative</code>
+> [!caution] Controller: Malia Cohen* <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
 
-> [!caution] Treasurer: Eleni Kounalakis <code class="orange">No Viable Alternative</code>
+> [!caution] Treasurer: Eleni Kounalakis <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
 
-> [!caution] Attorney General: Rob Bonta <code class="orange">No Viable Alternative</code>
+> [!caution] Attorney General: Rob Bonta* <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
 
-> [!hint] Insurance Commissioner: Jane Kim <code class="blue">Recommended</code> 
+> [!hint] Insurance Commissioner: Jane Kim <code class="blue">Recommended</code>
 
-> [!caution] Superintendent of Public Instruction: Richard Barrera <code class="orange">No Viable Alternative</code>
+> [!caution] Superintendent of Public Instruction: Richard Barrera <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
 
 > [!hint] Board of Equalization, Dist. 3: Sam Sukaton <code class="blue">Recommended</code> 
 
 ## State Senate
 
-> [!hint] State Senator, Dist. 20: Caroline Menjivar <code class="blue">Recommended</code>
+> [!hint] State Senator, Dist. 20: Caroline Menjivar* <code class="blue">Recommended</code> <code class="gray">Safe Seat</code>
 
-> [!success] State Senator, Dist. 24: John Erickson <code class="green">Endorsed</code>
+> [!success] State Senator, Dist. 24: John Erickson <code class="green">Endorsed</code> 
 
 > [!hint] State Senator, Dist. 26: Sarah Rascon <code class="blue">Recommended</code> 
 
-> [!hint] State Senator, Dist. 28: Lola Smallwood-Cuevas <code class="blue">Recommended</code>
-
-> [!hint] Assemblymember, Dist. 40: Pilar Schiavo <code class="blue">Recommended</code>
+> [!hint] State Senator, Dist. 28: Lola Smallwood-Cuevas* <code class="blue">Recommended</code> <code class="gray">Safe Seat</code>
 
 ## State Assembly
 
-> [!caution] Assemblymember, Dist. 43: Celeste Rodriguez <code class="orange">No Viable Alternative</code>
+> [!hint] Assemblymember, Dist. 40: Pilar Schiavo* <code class="blue">Recommended</code> 
 
-> [!hint] Assemblymember, Dist. 44: Nick Schultz <code class="blue">Recommended</code>
+> [!caution] Assemblymember, Dist. 43: Celeste Rodriguez* <code class="orange">No Viable Alternative</code> 
 
-> [!caution] Assemblymember, Dist. 46: Jesse Gabriel <code class="orange">No Viable Alternative</code>
+> [!hint] Assemblymember, Dist. 44: Nick Schultz* <code class="blue">Recommended</code> <code class="gray">Safe Seat</code>
+
+> [!caution] Assemblymember, Dist. 46: Jesse Gabriel* <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
 
 > [!success] Assemblymember, Dist. 51: Colin Hernandez <code class="green">Endorsed</code>
 
-> [!caution] Assemblymember, Dist. 52: Jessica Caloza <code class="orange">No Viable Alternative</code>
+> [!caution] Assemblymember, Dist. 52: Jessica Caloza* <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
 
-> [!caution] Assemblymember, Dist. 54: Mark Gonzalez <code class="orange">No Viable Alternative</code>
+> [!caution] Assemblymember, Dist. 54: Mark Gonzalez* <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
 
-> [!caution] Assemblymember, Dist. 55: Isaac Bryan <code class="orange">No Viable Alternative</code>
+> [!caution] Assemblymember, Dist. 55: Isaac Bryan* <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
 
-> [!caution] Assemblymember, Dist. 57: Sade Elhawary <code class="orange">No Viable Alternative</code>
+> [!caution] Assemblymember, Dist. 57: Sade Elhawary* <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
 
-> [!hint] Assemblymember, Dist. 61: Tina McKinnor <code class="blue">Recommended</code> 
+> [!hint] Assemblymember, Dist. 61: Tina McKinnor* <code class="blue">Recommended</code> <code class="gray">Safe Seat</code>
 
-> [!caution] Assemblymember, Dist. 65: Ayanna Davis <code class="orange">No Viable Alternative</code>
+> [!caution] Assemblymember, Dist. 65: Ayanna Davis* <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
 
 # United States Congress
 
 > [!hint] Representative, Dist. 29: Angelica Dueñas <code class="blue">Recommended</code>
 
-> [!hint] Representative, Dist. 30: Laura Friedman <code class="blue">Recommended</code>
+> [!hint] Representative, Dist. 30: Laura Friedman* <code class="blue">Recommended</code> <code class="gray">Safe Seat</code>
 
-> [!caution] Representative, Dist. 32: Brad Sherman <code class="orange">No Viable Alternative</code>
+> [!caution] Representative, Dist. 32: Brad Sherman* <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
 
 > [!success] Representative, Dist. 34: Angela Gonzales-Torres <code class="green">Endorsed</code>
 
-> [!caution] Representative, Dist. 35: Norma Torres <code class="orange">No Viable Alternative</code>
+> [!caution] Representative, Dist. 35: Norma Torres* <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
 
-> [!caution] Representative, Dist. 36: Ted Lieu <code class="orange">No Viable Alternative</code>
+> [!caution] Representative, Dist. 36: Ted Lieu* <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
 
 > [!hint] Representative, Dist. 37: Samantha Mota <code class="blue">Recommended</code>
 
-> [!caution] Representative, Dist. 38: Hilda Solis <code class="orange">No Viable Alternative</code>
+> [!caution] Representative, Dist. 38: Hilda Solis <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
 
-> [!caution] Representative, Dist. 44: Nanette Barragán <code class="orange">No Viable Alternative</code>
+> [!caution] Representative, Dist. 44: Nanette Barragán* <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
