@@ -16,9 +16,9 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: DM Sans
-      code: IBM Plex Mono
+      header: Figtree
+      body: Figtree
+      code: Google Sans Mono
     colors:
       lightMode:
         light: "#DED9C3"
