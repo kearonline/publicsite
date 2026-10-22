@@ -16,8 +16,8 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: false
     typography:
-      header: DM Sans
-      body: DM Sans
+      header: Commissioner
+      body: Commissioner
       code: Google Sans Mono
     colors:
       lightMode:
@@ -41,7 +41,7 @@ configuration:
         highlight: rgba(52, 145, 118, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
-  - source: "./plugins/Subtitle"
+  - source: "./quartz/plugins/Subtitle.tsx"
     enabled: true
     layout:
       position: "beforeBody"  # Choices: left, right, beforeBody, afterBody
@@ -115,7 +115,7 @@ plugins:
     enabled: false
     order: 92
   - source: "@quartz-community/quartz-fonts"
-    enabled: true
+    enabled: false
   - source: "@quartz-themes/core"
     enabled: false
     options:
