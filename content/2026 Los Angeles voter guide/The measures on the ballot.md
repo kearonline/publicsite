@@ -64,24 +64,34 @@ Happy voting!
 > [!success]- Prop 4, Public fundraising: YES <code class="green">Endorsed</code>
 > Prop 4 doesn't actually establish public fundraising programs for campaigns. It just eliminates the state ban on it with some necessary guardrails that prevent the use of funds allocated for essential services.
 > 
-> Public fundraising programs are good for democracy and grassroots campaigns. In cities like ours that do have it, these often take the form of "matching funds", which allows for less-established candidates to remain competitive with others backed by well-off private donors by having funds donated by City residents amplified by the City.
+> Public fundraising programs are good for democracy and grassroots campaigns. In cities like ours that do have it, these often take the form of "matching funds", which allows for less-established candidates to remain competitive with others backed by well-off private donors by having funds donated by City residents amplified by the City. Campaign finance, as we all know, is broken. This is a much-needed tool that would help counter the impact of big money in elections.
 
 > [!success]- Prop 5, Recall reform: YES <code class="green">Endorsed</code>
+> Prop 5 would make it so after an elected official is recalled, vacancies are then filled by succession or special election instead of in a second replacement question. This is a pro-democracy reform that ensures that replacement candidates aren't elected by plurality in a low-turnout election where anti-recall voters would be averse to picking an alternative.
 
-> [!caution] Prop 37, Homebuyers loan: NO <code class="orange">Recommended</code>
+> [!caution]- Prop 37, Homebuyers loan: NO <code class="orange">Recommended</code>
+> Prop 37 is also complicated. It's well established that homeownership is one of the primary pathways to building equity under our current system, and that more people should be able to enter this market. Where this proposition concerns me is its exclusivity to new-build residences, and specifically single-family homes. That scope of eligibility is too narrow and provides an undue advantage to single-family developers.
 
-> [!question] Prop 38, Research bond <code class="yellow">No Recommendation</code>
+> [!question]- Prop 38, Research bond <code class="yellow">No Recommendation</code>
+> I'll defer to [this article](https://calmatters.org/politics/elections/2026/10/prop-38-california/) by CalMatters on why there are questions about this proposition's bonds mostly going towards a single research institute.
 
-> [!danger] Prop 39, Voter ID: NO <code class="red">Endorsed</code>
+> [!danger]- Prop 39, Voter ID: NO <code class="red">Endorsed</code>
+> Prop 39 would lead to voter disenfranchisement by imposing an ID requirement that's both redundant and inequitable. This is an easy choice.
 
-> [!success] Prop 40, Billionaire tax: YES <code class="green">Endorsed</code>
+> [!success]- Prop 40, Billionaire tax: YES <code class="green">Endorsed</code>
+> Prop 40 would be a significant, though drop-in-the-bucket (for the billionaires) redistribution of wealth from the top (less than) 1% of earners to the rest of us. It's a bold measure that would create a massive pool of funds for health care in a time when it's much needed.
 
-> [!danger] Prop 41, Tax audits: NO <code class="red">Endorsed</code>
+> [!danger]- Prop 41, Tax audits: NO <code class="red">Endorsed</code>
+> Prop 41 is written to nullify Prop 40 if it passes with more votes. Vote no.
 
-> [!danger] Prop 42, Property taxes: NO <code class="red">Endorsed</code>
+> [!danger]- Prop 42, Property taxes: NO <code class="red">Endorsed</code>
+> Prop 42 is written to nullify Prop 40 if it passes with more votes. Vote no.
 
-> [!danger] Prop 43, Tax threshold: NO <code class="red">Endorsed</code> 
+> [!danger]- Prop 43, Tax threshold: NO <code class="red">Endorsed</code> 
+> Prop 43 is perhaps one of the most dangerous, anti-democratic measures on the ballot this cycle, increasing and rendering virtually impossible any and all future efforts at the local level to raise revenue via special taxes. It does so by increasing the voter threshold to pass a special tax measure to two-thirds instead of a simple majority. If this passes, cities and municipalities across California will struggle to fund services and capital expenditure projects without the option of adding additional revenue streams via voter approved taxes. Approval by a simple majority should be considered sufficient. Vote no.
 
-> [!danger] Prop 44, Clinic funding: NO <code class="red">Endorsed</code>
+> [!danger]- Prop 44, Clinic funding: NO <code class="red">Endorsed</code>
+> Prop 44 is intended to increase accountability for community health clinics by having them spend 90% of their revenue on services. But it's a one-sized-fits-all restriction that would lead to some services that don't count under the measure's definition of services being massively cut. Let community health clinics decide themselves what should be funded for their patients' well-being and health and vote no.
 
-> [!question] Prop 45, Environmental review <code class="yellow">No Recommendation</code>
+> [!question]- Prop 45, Environmental review <code class="yellow">No Recommendation</code>
+> Prop 45 intends to reform the CEQA process for environmental review by limiting the length of time permitted to collect public input, a necessary step towards eliminating some of the pathways for the weaponization of CEQA by NIMBYs against any new housing development. In that case, this measure is good. Others argue, rightfully so, that this goes too far so as to effectively deal a death blow to the CEQA regime of environmental protections in allowing these reforms to extend to infrastructure projects that may cause great harm to surrounding communities. CA YIMBY has [a fantastic writeup](https://cayimby.org/blog/proposition-45-2026/) on the many arguments for and against Prop 45, and I encourage you to weigh all of these arguments to make a vote here that aligns best with your values.
