@@ -13,8 +13,8 @@ bodyClass: no-code-wrap
 Hello! Make sure to read the first part of this guide on [the people on the ballot](https://whoiskear.com/2026-los-angeles-voter-guide/the-people-on-the-ballot) for the full introduction, my methodology, personal priorities, and a comprehensive overview of how this guide works.
 
 As a reminder, I distinguish between different levels of recommendation:
-* <code class="green">Endorsed</code> I unequivocally endorse this vote.
-* <code class="blue">Recommended</code> I would recommend this vote, but I have some reservations.
+* <code class="green">Endorsed YES</code>/<code class="red">Endorsed NO</code> I unequivocally endorse this vote.
+* <code class="blue">Recommended YES</code>/<code class="orange">Recommended NO</code> I would recommend this vote, but I have some reservations.
 * <code class="yellow">No Recommendation</code> I don't feel comfortable making a recommendation given that there are very valid arguments for or against this proposition.
 
 I also used these voter guides to help inform my votes and recommendations:
