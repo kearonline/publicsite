@@ -10,7 +10,23 @@ bodyClass: no-code-wrap
 ---
 # Introduction
 
-Hello! Make sure to read the first part of this guide on [the people on the ballot](https://whoiskear.com/2026-los-angeles-voter-guide/the-people-on-the-ballot) for my methodology, personal priorities, and a comprehensive overview of how this guide works.
+Hello! Make sure to read the first part of this guide on [the people on the ballot](https://whoiskear.com/2026-los-angeles-voter-guide/the-people-on-the-ballot) for the full introduction, my methodology, personal priorities, and a comprehensive overview of how this guide works.
+
+As a reminder, I distinguish between different levels of recommendation:
+* <code class="green">Endorsed</code> I unequivocally endorse this vote.
+* <code class="blue">Recommended</code> I would recommend this vote, but I have some reservations.
+* <code class="yellow">No Recommendation</code> I don't feel comfortable making a recommendation given that there are very valid arguments for or against this proposition.
+
+I also used these voter guides to help inform my votes and recommendations:
+* [DSA-LA](https://voterguide.dsa-la.org)
+* [La Defensa](https://ladefensa.org/2026-voter-guide/)
+* [LA Forward](https://laforwardguide.org)
+* [CA YIMBY](https://cayimby.org/endorsements/)
+* [Streets for All](https://www.streetsforall.org/2026)
+
+Here's a [voter guide on voter guides](https://lataco-embeds.netlify.app/guide_of_guides_nov2026.html) by *L.A. Taco*, and more information on [how to register and cast your vote](https://www.sos.ca.gov/elections) by the *California Secretary of State*.
+
+**Let's get to it!** Contact me if you have any questions about any decision or writeup.
 
 Happy voting!
 
