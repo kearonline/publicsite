@@ -18,7 +18,7 @@ configuration:
     typography:
       header: Commissioner
       body: Commissioner
-      code: Google Sans Mono
+      code: Victor Mono
     colors:
       lightMode:
         light: "#DED9C3"
