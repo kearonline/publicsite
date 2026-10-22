@@ -48,7 +48,7 @@ subtitle: 2026 Los Angeles voter guide, Part II
 
 > [!caution] Prop 37, Homebuyers loan: NO <code class="orange">Recommended</code>
 
-> [!question] Prop 38, Research bond: NO <code class="yellow">No Recommendation</code>
+> [!question] Prop 38, Research bond <code class="yellow">No Recommendation</code>
 
 > [!danger] Prop 39, Voter ID: NO <code class="red">Endorsed</code>
 
@@ -62,4 +62,4 @@ subtitle: 2026 Los Angeles voter guide, Part II
 
 > [!danger] Prop 44, Clinic funding: NO <code class="red">Endorsed</code>
 
-> [!hint] Prop 45, Environmental review: YES <code class="blue">Recommended</code>
+> [!question] Prop 45, Environmental review <code class="yellow">No Recommendation</code>
