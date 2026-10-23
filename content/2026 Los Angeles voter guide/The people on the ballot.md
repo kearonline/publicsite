@@ -7,8 +7,12 @@ published: 2026-10-21
 cssclasses:
 subtitle: 2026 Los Angeles voter guide, Part I
 bodyClass: no-code-wrap
+aliases:
+  - voter-guide
 ---
 # Introduction
+
+> [!hint] Visit [the second part](https://whoiskear.com/2026-los-angeles-voter-guide/the-measures-on-the-ballot) of this voter guide for ballot measure recommendations.
 
 **Last updated Fri, Oct 23**
 
@@ -20,7 +24,7 @@ As a proxy war takes hold between the establishment and a new brand of progressi
 
 While the alignment of each of our City candidates on that spectrum could not be more clear and present real choices with real consequences, many of the elections above the County level do not. It's a shame that quite a few were decided during the primary, with some of our best shots at turning things around coming just [oh-so-painfully short](https://calmatters.org/california-voter-guide-2026/governor/). The mixed-bag results of our state's primary have left much of the remaining elections as choices between Bland & Vaguely Progressive Normiedem and An Actual Republican or different variations of that.
 
-Nonetheless, there are some genuinely difficult choices to make this year, many of whom are in the local and state ballot propositions, to be covered in Part II of this guide. I hope that this guide with the research I've done as a mostly-normal guy will help you to make yours or put you on the direction to make the choices that align best with your beliefs. 
+Nonetheless, there are some genuinely difficult choices to make this year, many of whom are in the local and state ballot propositions, covered in [the second part](https://whoiskear.com/2026-los-angeles-voter-guide/the-measures-on-the-ballot) of this guide. I hope that this guide with the research I've done as a mostly-normal guy will help you to make yours or put you on the direction to make the choices that align best with your beliefs. 
 
 Happy voting!
 

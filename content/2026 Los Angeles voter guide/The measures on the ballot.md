@@ -10,6 +10,8 @@ bodyClass: no-code-wrap
 ---
 # Introduction
 
+> [!hint] Visit [the first part](https://whoiskear.com/2026-los-angeles-voter-guide/the-people-on-the-ballot) of this voter guide for election recommendations.
+
 **Last updated Fri, Oct 23**
 
 Hello! Make sure to read the first part of this guide on [the people on the ballot](https://whoiskear.com/2026-los-angeles-voter-guide/the-people-on-the-ballot) for the full introduction, my methodology, personal priorities, and a comprehensive overview of how this guide works.
