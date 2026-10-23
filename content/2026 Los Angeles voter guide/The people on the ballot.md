@@ -10,11 +10,12 @@ bodyClass: no-code-wrap
 aliases:
   - voter-guide
 ---
-# Introduction
+>[!hint] Download a [quick reference guide](https://drive.google.com/file/d/1dA-8IKl3YGzFANGL6d2iFPGF-qykGJz6/view?usp=sharing) with a summary of all recommendations.
 
-> [!hint] Visit [the second part](https://whoiskear.com/2026-los-angeles-voter-guide/the-measures-on-the-ballot) of this voter guide for ballot measure recommendations.
+> [!hint] Visit the [first part](https://whoiskear.com/2026-los-angeles-voter-guide/the-people-on-the-ballot) of this voter guide for ballot measure recommendations.
 
 **Last updated Fri, Oct 23**
+# Introduction
 
 Angelenos this election have a major opportunity to change the direction of our City: two of three at-large elected offices will be on the ballot along with two City Council seats with no incumbent.
 
