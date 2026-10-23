@@ -10,6 +10,8 @@ bodyClass: no-code-wrap
 ---
 # Introduction
 
+**Last updated Fri, Oct 23**
+
 Angelenos this election have a major opportunity to change the direction of our City: two of three at-large elected offices will be on the ballot along with two City Council seats with no incumbent.
 
 Each of these runoffs conveniently follow a dynamic resembling that of many banner races across the country, where voters will choose between "more of the same" or "something new," between more of the malaise and inaction that has defined much of our municipal politics or a new focus on the issues that we're experiencing on the ground and [to get around](https://www.instagram.com/reels/DcOys-6uGRB/).
@@ -123,9 +125,9 @@ Here's a [voter guide on voter guides](https://lataco-embeds.netlify.app/guide_o
 
 > [!hint] Trustee, Seat 2: Adriana Cabrera <code class="blue">Recommended</code>
 
-> [!caution] Trustee, Seat 4: Darryn Harris <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
+> [!hint] Trustee, Seat 4: Darryn Harris <code class="blue">Recommended</code>
 
-> [!caution] Trustee, Seat 6: Randall Winston <code class="orange">No Viable Alternative</code> <code class="gray">Safe Seat</code>
+> [!hint] Trustee, Seat 6: Randall Winston <code class="blue">Recommended</code>
 
 # State of California
 
