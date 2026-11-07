@@ -3,7 +3,7 @@ title: Style guide
 draft: false
 tags: []
 published: 2026-10-21
-unlisted: "true"
+unlisted: "TRUE"
 ---
 
 | Color  | Chip                               | Base hex                         | On parchment | On dark   |
