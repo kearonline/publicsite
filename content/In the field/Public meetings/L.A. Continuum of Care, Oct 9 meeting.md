@@ -1,9 +1,10 @@
 ---
-title: L.A. Continuum of Care selection meeting
+title: L.A. Continuum of Care, Oct 9 meeting
 draft: false
 tags:
   - homeless-services
-  - meeting
+  - coursework
+  - field-notes
 published: 2026-10-09
 ---
 Today, I attended the [L.A. Continuum of Care (CoC) meeting](https://www.lahsa.org/documents?id=10304-la-coc-general-membership-special-meeting-agenda-10-9-2026) that was abruptly adjourned a few minutes after it began. Why? There were not enough seats in the Zoom meeting to accommodate every member who wanted to vote, which exceeded a thousand people. Under the CoC's bylaws, everyone who resides in its service area, spanning the entire county with the exception of the cities of Glendale, Pasadena, and Long Beach, which have their own, is considered a member of the CoC and is able to vote on matters before the board. The L.A. CoC was set to vote on the board's recommendation to select the County as the entity responsible for fulfilling all four of its primary responsibilities as the CoC's collaborative applicant, homeless management information system (HMIS) manager, Coordinated Entry System (CES) manager, and Point-In-Time (PIT) Count administrator. 

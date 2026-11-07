@@ -1,10 +1,11 @@
 ---
-title: Mission Bay field notes
+title: Mission Bay, 1st visit
 draft: false
 tags:
   - ucsd
   - usp142b
   - coursework
+  - field-notes
 published: 2026-04-28
 ---
 *The following is an excerpt from field notes produced during a visit to Mission Bay in the City of San Diego, as part of the Urban Challenges in Homelessness course sequence. This visit involved conducting interviews with unhoused residents of the area.*

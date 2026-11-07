@@ -1,7 +1,9 @@
 ---
 title: Artist statement
 draft: false
-tags: []
+tags:
+  - ucsd
+  - vis41
 published: 2022-09-02
 ---
 To tell you the truth, I have no idea what I’m doing with my life at the moment—and I’m perfectly fine with that, because at the end of the day, I am confident that no one truly knows deep down what they’re doing with theirs either. 

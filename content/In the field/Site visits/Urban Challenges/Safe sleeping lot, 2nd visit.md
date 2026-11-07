@@ -5,6 +5,7 @@ tags:
   - ucsd
   - usp142b
   - coursework
+  - field-notes
 published: 2026-05-20
 ---
 *The following is an excerpt from field notes produced during a visit to a safe sleeping lot in the City of San Diego, as part of the Urban Challenges in Homelessness course sequence. This visit involved conducting interviews with unhoused residents of the lot.*
