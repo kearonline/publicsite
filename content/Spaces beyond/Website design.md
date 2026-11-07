@@ -1,5 +1,5 @@
 ---
-title: Style guide
+title: Website design
 draft: false
 tags: []
 published: 2026-10-21
@@ -7,7 +7,6 @@ unlisted: "TRUE"
 ---
 
 | Color  | Chip                               | Base hex                         | On parchment | On dark   |
-| ------ | ---------------------------------- | -------------------------------- | ------------ | --------- |
 | Red    | <code class="red">Red</code>       | `#DC322F`                        | `#DDAA9A`    | `#612321` |
 | Orange | <code class="orange">Orange</code> | `#DB8942`                        | `#DDC19C`    | `#614428` |
 | Yellow | <code class="yellow">Yellow</code> | `#F0B414` light / `#FFDC28` dark | `#E7C76C`    | `#5C541D` |
