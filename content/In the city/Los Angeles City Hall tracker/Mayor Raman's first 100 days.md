@@ -11,10 +11,8 @@ alias: first-100-days
 <iframe 
   src="https://gdoc.pub/doc/e/2PACX-1vQ0hElZgHMrJp_DgtSbqynEMHl_MVYhzbJpGyT4jnXx8RjL3S4m802hgx7mDRXCtOhwpDyTIp1nYP9I" 
   style="border: none; scrolling: yes; display: block; margin: 0 auto;
-         width: calc(100% + 40px); 
-         height: 80vh; 
-         margin-left: -20px;
-         margin-right: -20px;"
+         width: 100%; 
+         height: 80vh"
   width="100%">
 </iframe>
 
