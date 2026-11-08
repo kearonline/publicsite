@@ -6,8 +6,10 @@ tags:
 published: 2026-11-07
 alias: first-100-days
 ---
+> [!hint] Open the [live document](https://docs.google.com/document/d/e/2PACX-1vQ0hElZgHMrJp_DgtSbqynEMHl_MVYhzbJpGyT4jnXx8RjL3S4m802hgx7mDRXCtOhwpDyTIp1nYP9I/pub) in a new tab.
+
 <iframe 
-  src="https://docs.google.com/document/d/e/2PACX-1vQ0hElZgHMrJp_DgtSbqynEMHl_MVYhzbJpGyT4jnXx8RjL3S4m802hgx7mDRXCtOhwpDyTIp1nYP9I/pub?embedded=true" 
+  src="https://docs.google.com/document/d/e/2PACX-1vQ0hElZgHMrJp_DgtSbqynEMHl_MVYhzbJpGyT4jnXx8RjL3S4m802hgx7mDRXCtOhwpDyTIp1nYP9I/pub" 
   width="100%" 
   style="height: 75vh; border: none; border-radius: 8px;" 
   loading="lazy">
