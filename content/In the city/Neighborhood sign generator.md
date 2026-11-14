@@ -95,8 +95,8 @@ alias: neighborhood-sign
   }
 </style>
 
-<iframe class="embed-frame" src="../in-the-city/neighborhood-sign-generator/assets/overtype-6.html"></iframe>
+<iframe class="embed-frame" src="/static/neighborhood-sign-generator/assets/overtype-6.html"></iframe>
 
 <div class="tool-banner">
-  If this doesn't work, open the <a href="../in-the-city/neighborhood-sign-generator/assets/overtype-6.html" target="_blank" rel="noopener">tool</a> in a new tab.
+  If this doesn't work, <a href="/static/neighborhood-sign-generator/assets/overtype-6.html" target="_blank" rel="noopener" data-router-ignore>open the tool</a> directly.
 </div>
