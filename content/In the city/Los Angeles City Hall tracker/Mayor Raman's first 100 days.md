@@ -7,41 +7,54 @@ published: 2026-11-07
 alias: first-100-days
 ---
 <style>
-  body {
-    overflow: hidden !important;
-  }
-
-  /* 1. Hide title, breadcrumbs, right sidebar, hr, and footer */
-  .page-header,
-  .right.sidebar,
-  footer,
-  .center > hr,
-  .page-footer {
+  /* 1. Hide title, breadcrumbs, right sidebar, hr, and footer ONLY while .embed-frame is active */
+  body:has(.embed-frame) .page-header,
+  body:has(.embed-frame) .right.sidebar,
+  body:has(.embed-frame) footer,
+  body:has(.embed-frame) .center > hr,
+  body:has(.embed-frame) .page-footer {
     display: none !important;
   }
 
-  /* 2. Leave #quartz-body grid columns, margins, and gaps 100% untouched */
-  #quartz-body {
-    max-width: 100vw !important;
-    padding-right: 0 !important;
-    margin-right: 0 !important;
+  /* 2. DESKTOP (> 800px): Leave .left.sidebar width & right gap untouched, expand tool to right/bottom edges */
+  @media (min-width: 801px) {
+    body:has(.embed-frame) {
+      overflow: hidden !important;
+    }
+
+    body:has(.embed-frame) #quartz-body {
+      max-width: 100vw !important;
+      padding-right: 0 !important;
+      margin-right: 0 !important;
+    }
+
+    body:has(.embed-frame) #quartz-body .center {
+      grid-column: 2 / -1 !important;
+      display: flex !important;
+      flex-direction: column !important;
+      max-width: 100% !important;
+      width: 100% !important;
+      height: 100vh !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
   }
 
-  /* 3. Span .center across the tool area and stack iframe + banner vertically */
-  #quartz-body .center {
-    grid-column: 2 / -1 !important;
-    display: flex !important;
-    flex-direction: column !important;
-    max-width: 100% !important;
-    width: 100% !important;
-    height: 100vh !important;
-    margin: 0 !important;
-    padding: 0 !important;
+  /* 3. MOBILE (<= 800px): Leave #quartz-body and top header margins completely native */
+  @media (max-width: 800px) {
+    body:has(.embed-frame) #quartz-body .center {
+      display: flex !important;
+      flex-direction: column !important;
+      width: 100% !important;
+      height: calc(100dvh - 5rem) !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
   }
 
-  /* 4. Let the article wrapper grow to fill all space above the bottom banner */
-  #quartz-body article,
-  #quartz-body .markdown-preview-view {
+  /* 4. Inner flex sizing so the iframe fills all vertical space above the banner */
+  body:has(.embed-frame) article,
+  body:has(.embed-frame) .markdown-preview-view {
     flex: 1 1 auto !important;
     display: flex !important;
     flex-direction: column !important;
@@ -62,7 +75,7 @@ alias: first-100-days
     padding: 0 !important;
   }
 
-  /* 5. Bottom banner: left-aligned, using Quartz's primary/secondary accent colors */
+  /* 5. Left-aligned bottom banner using Quartz's accent palette */
   .tool-banner {
     flex: 0 0 auto !important;
     width: 100% !important;
@@ -83,13 +96,6 @@ alias: first-100-days
 
   .tool-banner a:hover {
     opacity: 0.85 !important;
-  }
-
-  @media (max-width: 800px) {
-    #quartz-body .center {
-      grid-column: 1 / -1 !important;
-      height: calc(100vh - 60px) !important;
-    }
   }
 </style>
 
