@@ -1,7 +1,7 @@
 ---
-title:
+title: Title in sidebar
 draft: false
-tags: []
-published: "{{date:YYYY-MM-DD}}"
+tags:
+  - template
+published: 2026-11-14
 ---
-<code class="red">no</code> <code class="green">yes</code> <code class="yellow">Recommended</code> <code class="gray">no recommendation</code> `plain`
