@@ -16,20 +16,20 @@ last-updated: 2026-11-14
 
 ## Full bibliography
 
-* ***Making Space: How Public Participation Shapes Environmental Decision-Making*** ([Berry, et al., 2019](https://www.jstor.org/stable/resrep22993))
-* ***Just Planning: What Has Kept the Arts and Urban Planning Apart?*** ([Borrup, 2017](https://www.jstor.org/stable/10.34053/artivate.6.2.046))
-* ***Smart Cities as Participatory Planning*** ([Clark, 2020](https://www.jstor.org/stable/10.7312/clar18496.10))
-* ***Civic Engagement in Local Planning and Problem-Solving: Three Examples*** ([Conner, 2019](https://www.jstor.org/stable/10.32543/naticivirevi.108.1.0014))
-* ***Residential Satisfaction and Civic Engagement: Understanding the Causes of Community Participation*** ([Grillo, et al., 2010](https://www.jstor.org/stable/40783377))
-* ***Rethinking Civic Engagement on Housing*** ([Hemingway, et al., 2023](https://www.jstor.org/stable/10.2307/48749305))
-* ***Is There a Crisis of Participatory Planning?*** ([Legacy, 2017](https://www.jstor.org/stable/26408371))
+* ***Making Space: How Public Participation Shapes Environmental Decision-Making***  ([Berry, et al., 2019](https://www.jstor.org/stable/resrep22993))
+* ***Just Planning: What Has Kept the Arts and Urban Planning Apart?***  ([Borrup, 2017](https://www.jstor.org/stable/10.34053/artivate.6.2.046))
+* ***Smart Cities as Participatory Planning***  ([Clark, 2020](https://www.jstor.org/stable/10.7312/clar18496.10))
+* ***Civic Engagement in Local Planning and Problem-Solving: Three Examples***  ([Conner, 2019](https://www.jstor.org/stable/10.32543/naticivirevi.108.1.0014))
+* ***Residential Satisfaction and Civic Engagement: Understanding the Causes of Community Participation***  ([Grillo, et al., 2010](https://www.jstor.org/stable/40783377))
+* ***Rethinking Civic Engagement on Housing***  ([Hemingway, et al., 2023](https://www.jstor.org/stable/10.2307/48749305))
+* ***Is There a Crisis of Participatory Planning?***  ([Legacy, 2017](https://www.jstor.org/stable/26408371))
 * ***Using Geo-Spatial Technologies as Stakeholder Engagement Tools in Urban Planning and Development*** (Newton and Glackin, 2013)
 
 # Guides and handbooks
 
-* ***Inclusive Public Engagement Guide*** ([City of San Diego, 2025](https://www.sandiego.gov/engagement/overview))
-* ***Meaningful Engagement Handbook*** ([Ash, 2019](https://collectivethreads.org/wp-content/uploads/2025/07/Meaningful-Engagement-Handbook-Screen-Reader-Accessible.pdf))
+* ***Inclusive Public Engagement Guide***  ([City of San Diego, 2025](https://www.sandiego.gov/engagement/overview))
+* ***Meaningful Engagement Handbook***  ([Ash, 2019](https://collectivethreads.org/wp-content/uploads/2025/07/Meaningful-Engagement-Handbook-Screen-Reader-Accessible.pdf))
 
 # Conceptual frameworks
 
-* **Public Participation Process** ([Triplett, 2015](https://www.jstor.org/stable/26505351))
+* **Public Participation Process**  ([Triplett, 2015](https://www.jstor.org/stable/26505351))
