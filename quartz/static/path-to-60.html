@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Path to 60</title>
+<style>
+:root{box-sizing:border-box;color-scheme:light dark}
+*,*::before,*::after{box-sizing:inherit}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--tx);font:var(--fs)/1.5 var(--font);display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);overflow:hidden}
+header{display:flex;align-items:center;gap:16px;padding:10px 16px;border-bottom:1px solid var(--bd);flex:none}
+.wordmark{font:650 var(--h1)/1.3 var(--hfont);letter-spacing:-.02em;margin:0 auto 0 0;color:var(--sec)}
+main{flex:1;display:flex;min-height:0}
+#stage{flex:1;min-width:0;overflow-y:auto;padding:24px;display:flex;flex-direction:column;gap:24px;align-items:center;background:repeating-conic-gradient(var(--chk-a) 0% 25%,var(--chk-b) 0% 50%) 50%/22px 22px}
+.sheet{width:100%;max-width:780px;background:var(--card);padding:14px 16px;box-shadow:0 0 0 1px rgba(28,39,51,.18),0 14px 36px rgba(28,39,51,.22)}
+#rail{width:340px;flex:none;border-left:1px solid var(--bd);background:var(--card);overflow-y:auto;padding:4px 0 40px}
+fieldset{border:0;margin:0;padding:14px 18px 16px;border-bottom:1px solid var(--bd)}
+legend{float:left;width:100%;padding:0;margin:0 0 12px;font-size:12px;line-height:1.3;font-weight:600;color:var(--mu);letter-spacing:.01em}
+legend+*{clear:both;margin-top:0}
+#cats .row:first-child{margin-top:0}
+fieldset{min-width:0}
+.note{margin:8px 0 0;font-size:12px;color:var(--mu)}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}
+.sheet .row:first-child{margin:0 0 10px}
+.big{font-family:var(--hfont);font-size:var(--bigsize);font-weight:700;line-height:1}.big span{font-size:13px;font-weight:400;color:var(--mu)}
+.bar{position:relative;height:16px;background:var(--r);margin:22px 0 8px}
+.fill{height:100%;background:var(--d);transition:width .2s}
+.mark{position:absolute;top:-5px;bottom:-5px;width:2px;background:var(--tx)}
+.mark b{position:absolute;top:-17px;left:-8px;font-size:11px}
+.verdict{font-weight:600;font-size:13px}
+button,.btn{font:inherit;font-size:13px;color:var(--tx);background:var(--card);border:1px solid var(--bd);border-radius:var(--btnradius);padding:7px 12px;cursor:pointer}
+button:hover{border-color:var(--mu)}
+button:focus-visible,input:focus-visible{outline:2px solid var(--d);outline-offset:2px}
+.btn.primary{background:var(--d);color:var(--onacc);border-color:var(--d);font-weight:600}
+.btn.primary:hover{filter:brightness(1.12)}
+label{font-size:13px;color:var(--mu)}
+input[type=range]{width:100%;accent-color:var(--d);height:20px;margin-top:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:6px}
+.chip{text-align:left;padding:6px 8px;border-width:2px;border-radius:var(--btnradius);color:var(--onacc);border-color:transparent;font-size:13px}
+.chip.D{background:var(--d)}.chip.R{background:var(--r)}
+.chip small{display:block;opacity:.9;font-size:11px}.chip.flip{outline:2px dashed var(--tx);outline-offset:1px}
+#map{display:grid;grid-template-columns:repeat(12,1fr);grid-template-rows:repeat(8,1fr);gap:var(--tilegap);max-width:660px;margin:0 auto}
+.tile{aspect-ratio:1;display:flex;align-items:center;justify-content:center;font-size:clamp(.6rem,1.8vw,.85rem);font-weight:600;border-radius:var(--tileradius);padding:0;border:2px solid transparent;color:var(--onacc)}
+.tile.D{background:var(--d)}.tile.R{background:var(--r)}.tile.flip{outline:2px dashed var(--tx);outline-offset:1px}
+.tile.off{background:var(--bd);color:var(--mu);font-weight:400}
+.leg{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:10px;font-size:12px;color:var(--mu)}
+.leg i{display:inline-block;width:12px;height:12px;margin-right:4px;vertical-align:-1px}
+.hint{text-align:center;min-height:1.5em;margin-top:8px;font-size:12px}
+#geo{position:relative;width:100%;margin:0 auto;aspect-ratio:1.6/1}
+#geo svg{display:block}
+.seg{display:flex}.seg button{border-radius:0;margin-left:-1px}.seg button:first-child{border-radius:var(--btnradius) 0 0 var(--btnradius);margin-left:0}.seg button:last-child{border-radius:0 var(--btnradius) var(--btnradius) 0}
+.seg button.on{background:var(--d);color:var(--onacc);border-color:var(--d);font-weight:600;position:relative}
+@media(max-width:820px){html,body{height:auto}body{overflow:auto}header{flex-wrap:wrap}main{flex:none;flex-direction:column}#stage{flex:none;padding:16px;overflow:visible}#rail{width:auto;border-left:0;border-top:1px solid var(--bd);overflow:visible}}
+</style></head><body>
+
+<header>
+  <h1 class="wordmark" data-t="title"></h1>
+  <span class="note" style="margin:0" data-t="modeLabel"></span>
+  <div class="seg" role="group"><button id="mP" data-t="modeParty"></button><button id="mC" data-t="modeCat"></button></div>
+</header>
+<main>
+<section id="stage">
+  <div class="sheet">
+    <div class="row"><b data-t="mapHeading"></b> <span class="note" data-t="mapNote" style="margin:0"></span></div>
+    <div id="map"></div>
+    <div id="mi" class="note hint"></div>
+    <div class="leg"><span><i style="background:var(--d)"></i><span data-t="legD"></span></span><span><i style="background:var(--r)"></i><span data-t="legR"></span></span><span><i style="outline:2px dashed var(--tx);background:none"></i><span data-t="legFlip"></span></span><span><i style="background:var(--bd)"></i><span data-t="legOff"></span></span></div>
+  </div>
+  <div class="sheet">
+    <div class="row"><b data-t="geoHeading"></b> <span class="note" data-t="geoNote" style="margin:0"></span></div>
+    <div id="geo"></div>
+    <div id="gi" class="note hint"></div>
+  </div>
+</section>
+<aside id="rail">
+  <fieldset>
+    <legend data-t="resultHeading"></legend>
+    <div class="big"><span id="n"></span> <span data-t="seatsLabel"></span></div>
+    <div class="bar"><div class="fill" id="f"></div><div class="mark" id="m"><b id="tg"></b></div></div>
+    <div class="verdict" id="v"></div>
+    <p class="note" id="t"></p>
+    <p class="note" data-t="subtitle"></p>
+  </fieldset>
+  <fieldset>
+    <legend data-t="presetsLabel"></legend>
+    <div class="row" id="pre" style="margin-top:0"></div>
+    <div style="margin-top:14px"><label for="sw"><b data-t="swingLabel"></b> <span id="sv"></span></label>
+    <input id="sw" type="range" min="-5" max="25" value="0"></div>
+    <p class="note" data-t="swingNote"></p>
+  </fieldset>
+  <fieldset>
+    <legend data-t="catHeading"></legend>
+    <div id="cats"></div>
+    <p class="note" data-t="catNote"></p>
+  </fieldset>
+  <fieldset>
+    <legend data-t="listHeading"></legend>
+    <div class="grid" id="g"></div>
+    <p class="note" data-t="listNote"></p>
+  </fieldset>
+  <fieldset style="border-bottom:0"><p class="note" data-t="footer" style="margin:0"></p></fieldset>
+</aside>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datamaps/0.5.9/datamaps.usa.min.js"></script>
+<script>
+/* ============ EDIT HERE: DESIGN (colors, fonts, sizes) ============ */
+const THEME={
+  font:'Commissioner', // body font stack
+  followDarkMode:false,  // false = always light, like the sign tool. true = use the dark palette when the viewer's device is in dark mode
+  headingFont:'Commissioner',        // leave empty to reuse the body font
+  googleFont:'Commissioner',         // optional, e.g. 'Inter:wght@400;600;700' (then set font:'Inter,sans-serif')
+  fontSize:'15px',       // base text size
+  titleSize:'15px',    // page title
+  bigNumberSize:'2.2rem',// the big seat count
+  maxWidth:'860px',      // page width
+  cardRadius:'2px', buttonRadius:'2px', tileRadius:'2px', tileGap:'3px',
+  light:{bg:'#e9ecef',card:'#f5f6f8',text:'#1c2733',muted:'#5b6877',dem:'#2f6b97',rep:'#b95a56',border:'#c9d0d8',onAccent:'#ffffff',secondary:'#334c6a',checkA:'#d3d8de',checkB:'#cbd1d8'},
+  dark:{bg:'#15161a',card:'#202228',text:'#eeeeee',muted:'#9a9ca5',dem:'#4f8fc4',rep:'#e5645f',border:'#383b44',onAccent:'#ffffff',secondary:'#9db4d0',checkA:'#1b1d22',checkB:'#17191d'}
+};
+
+/* ============ EDIT HERE: SETTINGS ============ */
+const CONFIG={
+  target:60,        // seats needed (the line on the gauge)
+  notUpDem:40,      // Democratic-caucus seats NOT up in 2028
+  notUpRep:26       // Republican seats NOT up in 2028
+};
+
+/* ============ EDIT HERE: ALL TEXT ============ */
+/* HTML is allowed in these strings. {braces} are filled in by the page. */
+const TEXT={
+  pageTitle:"Path to 60",
+  title:"Path to 60",
+  subtitle:"Democrats start from the 56–44 Senate that emerges from the 2026 midterms (2 independents caucus with them). Only 34 seats are up in 2028. Click a seat to flip it.",
+  seatsLabel:"Democratic-caucus seats in this scenario",
+  presetsLabel:"Presets",
+  swingLabel:"Uniform swing",
+  swingIntro:"vs. 2024 presidential margin:",
+  swingNone:"—",
+  swingValue:"{pts} pts toward D",
+  swingNote:"Swing mode makes a seat Democratic when its approximate 2024 presidential margin plus the swing is above zero. It ignores candidates and incumbency, so use it as a rough lens.",
+  needOne:"{need} more seat needed for {target}.",
+  needMany:"{need} more seats needed for {target}.",
+  win:"Filibuster-proof: {n} seats, {spare} to spare.",
+  tally:"Of the 34 seats up: Democrats {dm}, Republicans {rep}. Pickups: {gains}. Losses: {loss}. Seats not up in 2028: Democrats {notUpDem}, Republicans {notUpRep}.",
+  mapHeading:"Map view",
+  mapNote:"Tap a colored state to flip it. Gray states have no 2028 race.",
+  mapHint:"Hover or tap a state for details.",
+  legD:"Democratic", legR:"Republican", legFlip:"Flipped from today", legOff:"No race",
+  geoHeading:"Geographic map",
+  geoNote:"Real state boundaries (low-resolution public data). Click a colored state to flip it.",
+  geoHint:"Hover or click a state for details.",
+  geoLoadFail:"The geographic map library did not load. The tile map above still works.",
+  geoDrawFail:"The geographic map could not be drawn. The tile map above still works.",
+  listHeading:"The 34 seats up in 2028",
+  listNote:"Sorted most Democratic to most Republican (2024 presidential margin). Dashed outline = differs from today’s holder.",
+  chipDem:"Dem", chipRep:"Rep",
+  partyDem:"Democratic", partyRep:"Republican",
+  marginD:"D+", marginR:"R+",
+  info:"{abbr}: {name} ({party}) · {cat} · 2024 margin {margin} · now {now}",
+  uncategorized:"Uncategorized",
+  resultHeading:"Scenario",
+  modeLabel:"Color by",
+  modeParty:"Party",
+  modeCat:"Category",
+  catHeading:"State categories",
+  catNote:"Set a whole category at once.",
+  catToD:"All D", catToR:"All R",
+  infoNoRace:"{abbr}: no Senate race in 2028",
+  nowIs:"{abbr} is now {now}",
+  footer:"Baseline: AP-reported 2026 results as of Nov. 18, 2026. 2028 seat holders are the incumbents as of now (Ohio’s seat includes the 2026 special-election winner). The margins are approximate rounded figures. Retirements, appointments, candidate quality, and other seat changes are not modeled. Reaching 60 only matters for cloture; Democrats would also need to hold their 40 seats not up in 2028."
+};
+
+/* ============ EDIT HERE: STATE CATEGORIES ============ */
+/* Rename a category (label) or move state abbreviations between lists. Add or delete whole categories freely.
+   Use a category in a preset by writing "@key" (e.g. "@swing"). Only the 34 states up in 2028 matter. */
+/* Each category has a color (any CSS color). Used when maps are colored by category. */
+const CATEGORIES={
+  safeD:{label:"Safe Democratic",color:"#3f5d82",states:["VT","MD","HI","CA","WA","CT","OR","NY","IL","CO"]},
+  leanD:{label:"Lean Democratic",color:"#6a97c4",states:["NH"]},
+  swing:{label:"Swing states",color:"#8c70b0",states:["PA","GA","NV","AZ","WI","NC"]},
+  leanR:{label:"Lean Republican",color:"#d4807a",states:["OH","AK","FL","IA"]},
+  safeR:{label:"Safe Republican",color:"#94504d",states:["KS","IN","MO","SC","LA","UT","SD","KY","AL","AR","ND","ID","OK"]}
+};
+
+/* ============ EDIT HERE: PRESETS ============ */
+/* Each preset starts from today's holders, then applies its moves in order.
+   move = {to:"D" or "R", states:[state abbreviations and/or "@category" keys]} */
+const PRESETS=[
+  {label:"Current holders",moves:[]},
+  {label:"Hold all + 4 closest",moves:[{to:"D",states:["WI","NC","AK","FL"]}]},
+  {label:"Sweep the swing states",moves:[{to:"D",states:["@swing"]}]},
+  {label:"Swing + lean R",moves:[{to:"D",states:["@swing","@leanR"]}]},
+  {label:"Sun Belt",moves:[{to:"D",states:["NC","FL","SC","LA"]}]},
+  {label:"Heartland",moves:[{to:"D",states:["WI","IA","KS","MO"]}]},
+  {label:"Rough night",moves:[{to:"R",states:["AZ","GA","NV","NH","PA"]}]},
+  {label:"Lose the swing states",moves:[{to:"R",states:["@swing"]}]}
+];
+
+/* ============ EDIT HERE: SEAT DATA ============ */
+// [abbr, senator, holder party, approx 2024 presidential margin (positive = D)]
+const S=[["VT","Welch","D",31],["MD","Van Hollen","D",29],["HI","Schatz","D",25],["CA","Padilla","D",20],["WA","Murray","D",18],["CT","Blumenthal","D",15],["OR","Wyden","D",14],["NY","Schumer","D",12],["IL","Duckworth","D",11],["CO","Bennet","D",11],["NH","Hassan","D",3],["PA","Fetterman","D",-2],["GA","Warnock","D",-2],["NV","Cortez Masto","D",-3],["AZ","Kelly","D",-5.5],["OH","Brown","D",-11],["WI","Johnson","R",-1],["NC","Budd","R",-3.2],["AK","Murkowski","R",-13],["FL","Moody","R",-13.1],["IA","Grassley","R",-13.2],["KS","Moran","R",-16.4],["IN","Young","R",-19],["MO","Schmitt","R",-18],["SC","Scott","R",-18.2],["LA","Kennedy","R",-22],["UT","Lee","R",-21],["SD","Thune","R",-29],["KY","Paul","R",-30],["AL","Britt","R",-30],["AR","Boozman","R",-31],["ND","Hoeven","R",-36],["ID","Crapo","R",-37],["OK","Lankford","R",-34]];
+
+/* ============ CODE (no text below this line) ============ */
+const L={AK:[0,0],ME:[0,11],WI:[1,5],VT:[1,10],NH:[1,11],WA:[2,0],ID:[2,1],MT:[2,2],ND:[2,3],MN:[2,4],IL:[2,5],MI:[2,6],NY:[2,8],MA:[2,10],OR:[3,0],NV:[3,1],WY:[3,2],SD:[3,3],IA:[3,4],IN:[3,5],OH:[3,6],PA:[3,7],NJ:[3,8],CT:[3,9],RI:[3,10],CA:[4,0],UT:[4,1],CO:[4,2],NE:[4,3],MO:[4,4],KY:[4,5],WV:[4,6],VA:[4,7],MD:[4,8],DE:[4,9],AZ:[5,1],NM:[5,2],KS:[5,3],AR:[5,4],TN:[5,5],NC:[5,6],SC:[5,7],OK:[6,3],LA:[6,4],MS:[6,5],AL:[6,6],GA:[6,7],HI:[7,0],TX:[7,3],FL:[7,8]};
+let st=S.map(s=>s[2]),dm=null,mode="party";
+const $=i=>document.getElementById(i);
+const fmt=(s,o)=>s.replace(/\{(\w+)\}/g,(m,k)=>o[k]!==undefined?o[k]:m);
+const full=p=>p=="D"?TEXT.partyDem:TEXT.partyRep;
+const mg=v=>(v>0?TEXT.marginD:TEXT.marginR)+Math.abs(v);
+const expand=l=>l.flatMap(x=>x[0]=="@"?(CATEGORIES[x.slice(1)]||{states:[]}).states:[x]);
+function setTo(l,p){expand(l).forEach(a=>{const i=S.findIndex(s=>s[0]==a);if(i>-1)st[i]=p})}
+function catOf(a){const k=Object.keys(CATEGORIES).find(k=>CATEGORIES[k].states.includes(a));return k?CATEGORIES[k].label:TEXT.uncategorized}
+function catColor(a){const k=Object.keys(CATEGORIES).find(k=>CATEGORIES[k].states.includes(a));return k&&CATEGORIES[k].color?CATEGORIES[k].color:"var(--mu)"}
+function fillOf(i){return mode=="cat"?catColor(S[i][0]):st[i]=="D"?"var(--d)":"var(--r)"}
+function info(a){const i=S.findIndex(s=>s[0]==a);
+ return i<0?fmt(TEXT.infoNoRace,{abbr:a}):fmt(TEXT.info,{abbr:a,name:S[i][1],party:S[i][2],margin:mg(S[i][3]),now:full(st[i]),cat:catOf(a)})}
+function flip(i){st[i]=st[i]=="D"?"R":"D";$("sv").textContent=TEXT.swingNone;save();draw()}
+function save(){try{history.replaceState(null,"","#p"+st.map(x=>x=="D"?1:0).join(""))}catch(e){}}
+function load(){const h=location.hash;if(/^#p[01]{34}$/.test(h))st=[...h.slice(2)].map(c=>c=="1"?"D":"R")}
+function geoDraw(){
+ const box=$("geo");
+ if(typeof Datamap==="undefined"||typeof d3==="undefined"){box.style.aspectRatio="auto";box.innerHTML='<p class="note">'+TEXT.geoLoadFail+'</p>';return}
+ if(!dm){
+  try{
+   dm=new Datamap({element:box,scope:"usa",responsive:true,fills:{defaultFill:"#999"},
+    geographyConfig:{highlightOnHover:false,popupOnHover:false,borderColor:"#fff",borderWidth:.8},
+    done:m=>{m.svg.selectAll(".datamaps-subunit")
+     .on("mouseover",g=>{$("gi").textContent=info(g.id)})
+     .on("click",g=>{const i=S.findIndex(s=>s[0]==g.id);if(i>=0)flip(i);$("gi").textContent=info(g.id)})}});
+   addEventListener("resize",()=>dm.resize());
+  }catch(e){box.innerHTML='<p class="note">'+TEXT.geoDrawFail+'</p>';return}
+ }
+ dm.svg.selectAll(".datamaps-subunit").each(function(g){
+  const i=S.findIndex(s=>s[0]==g.id),f=i>=0&&st[i]!=S[i][2];
+  d3.select(this).style("fill",i<0?"var(--bd)":fillOf(i))
+   .style("stroke",f?"var(--tx)":"var(--card)").style("stroke-width",f?"2px":".8px").style("cursor",i<0?"default":"pointer")});
+}
+function draw(){
+ const dem=st.filter(x=>x=="D").length,n=CONFIG.notUpDem+dem,need=CONFIG.target-n;
+ $("n").textContent=n;$("f").style.width=n+"%";$("m").style.left=CONFIG.target+"%";$("tg").textContent=CONFIG.target;
+ $("v").textContent=need>0?fmt(need>1?TEXT.needMany:TEXT.needOne,{need:need,target:CONFIG.target}):fmt(TEXT.win,{n:n,spare:n-CONFIG.target});
+ $("v").style.color=need>0?"":"var(--d)";
+ const gains=S.filter((s,i)=>st[i]=="D"&&s[2]=="R").length,loss=S.filter((s,i)=>st[i]=="R"&&s[2]=="D").length;
+ $("t").textContent=fmt(TEXT.tally,{dm:dem,rep:S.length-dem,gains:gains,loss:loss,notUpDem:CONFIG.notUpDem,notUpRep:CONFIG.notUpRep});
+ const mp=$("map");mp.innerHTML="";
+ Object.entries(L).forEach(([a,[r,c]])=>{const i=S.findIndex(s=>s[0]==a);
+  const d=document.createElement(i>-1?"button":"div");
+  d.className="tile "+(i>-1?st[i]+(st[i]!=S[i][2]?" flip":""):"off");
+  d.style.gridRow=r+1;d.style.gridColumn=c+1;
+  d.innerHTML=a+(mode=="cat"&&i>-1?`<sup style="font-size:.6em">${st[i]}</sup>`:"");
+  if(mode=="cat"&&i>-1)d.style.background=catColor(a);
+  d.onmouseenter=()=>{$("mi").textContent=info(a)};
+  d.onclick=()=>{if(i>-1){flip(i);$("mi").textContent=fmt(TEXT.nowIs,{abbr:a,now:full(st[i])})}else $("mi").textContent=info(a)};
+  mp.appendChild(d)});
+ $("mP").classList.toggle("on",mode=="party");$("mC").classList.toggle("on",mode=="cat");
+ $("mP").setAttribute("aria-pressed",mode=="party");$("mC").setAttribute("aria-pressed",mode=="cat");
+ geoDraw();
+ $("g").innerHTML="";
+ S.forEach((s,i)=>{const b=document.createElement("button");b.className="chip "+st[i]+(st[i]!=s[2]?" flip":"");
+  b.innerHTML=`<b>${s[0]}</b> ${st[i]=="D"?TEXT.chipDem:TEXT.chipRep}<small>${s[1]} (${s[2]}) · ${mg(s[3])}</small>`;
+  if(mode=="cat")b.style.background=catColor(s[0]);
+  b.onclick=()=>flip(i);$("g").appendChild(b)});
+}
+// apply design
+(function(){
+ const T=THEME,v=c=>`--bg:${c.bg};--card:${c.card};--tx:${c.text};--mu:${c.muted};--d:${c.dem};--r:${c.rep};--bd:${c.border};--onacc:${c.onAccent};--sec:${c.secondary||c.text};--chk-a:${c.checkA||c.bg};--chk-b:${c.checkB||c.bg};`;
+ if(T.googleFont){const l=document.createElement("link");l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?family="+T.googleFont+"&display=swap";document.head.appendChild(l)}
+ const s=document.createElement("style");
+ s.textContent=`:root{color-scheme:${T.followDarkMode?"light dark":"light"};${v(T.light)}--font:${T.font};--hfont:${T.headingFont||T.font};--fs:${T.fontSize};--h1:${T.titleSize};--bigsize:${T.bigNumberSize};--maxw:${T.maxWidth};--radius:${T.cardRadius};--btnradius:${T.buttonRadius};--tileradius:${T.tileRadius};--tilegap:${T.tileGap}}${T.followDarkMode?`@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){${v(T.dark)}}}`:""}`;
+ document.head.appendChild(s);
+})();
+// fill in static text
+document.title=TEXT.pageTitle;
+document.querySelectorAll("[data-t]").forEach(e=>{e.innerHTML=TEXT[e.dataset.t]});
+$("sv").textContent=TEXT.swingNone;$("mi").textContent=TEXT.mapHint;$("gi").textContent=TEXT.geoHint;
+document.querySelector('label[for="sw"] b').insertAdjacentText("afterend"," "+TEXT.swingIntro);
+PRESETS.forEach(p=>{const b=document.createElement("button");b.textContent=p.label;
+ b.onclick=()=>{st=S.map(s=>s[2]);p.moves.forEach(m=>setTo(m.states,m.to));$("sv").textContent=TEXT.swingNone;save();draw()};
+ $("pre").appendChild(b)});
+Object.keys(CATEGORIES).forEach(k=>{const c=CATEGORIES[k],r=document.createElement("div");r.className="row";
+ r.innerHTML=`<b style="min-width:9em"><i style="display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;background:${c.color||"var(--mu)"}"></i>${c.label}</b><span class="note" style="min-width:11em">${c.states.join(", ")}</span>`;
+ [["D",TEXT.catToD],["R",TEXT.catToR]].forEach(([p,t])=>{const b=document.createElement("button");b.textContent=t;b.onclick=()=>{setTo(c.states,p);$("sv").textContent=TEXT.swingNone;save();draw()};r.appendChild(b)});
+ $("cats").appendChild(r)});
+$("mP").onclick=()=>{mode="party";draw()};$("mC").onclick=()=>{mode="cat";draw()};
+$("sw").oninput=e=>{const s=+e.target.value;st=S.map(x=>x[3]+s>0?"D":"R");$("sv").textContent=fmt(TEXT.swingValue,{pts:(s>=0?"+":"")+s});save();draw()};
+load();draw();
+</script></body></html>
