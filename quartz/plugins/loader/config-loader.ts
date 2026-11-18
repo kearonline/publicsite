@@ -717,6 +717,22 @@ export async function loadQuartzLayout(layoutOverrides?: {
     }
   }
 
+  const SubtitleModule = await import("../../components/Subtitle")
+  const subtitleComponent = SubtitleModule.default()
+  const allLayouts = [mergedDefaults, ...Object.values(mergedByPageType)]
+  const seenBeforeBody = new Set<unknown[]>()
+  for (const l of allLayouts) {
+    if (Array.isArray(l.beforeBody) && !seenBeforeBody.has(l.beforeBody)) {
+      seenBeforeBody.add(l.beforeBody)
+      const idx = l.beforeBody.findIndex((c: any) => c?.name === "ArticleTitle")
+      if (idx !== -1) {
+        l.beforeBody.splice(idx + 1, 0, subtitleComponent)
+      } else {
+        l.beforeBody.unshift(subtitleComponent)
+      }
+    }
+  }
+
   return { defaults: mergedDefaults, byPageType: mergedByPageType }
 }
 

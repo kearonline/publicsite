@@ -1,11 +1,11 @@
 ---
 title: The measures on the ballot
+subtitle: 2026 Los Angeles voter guide
 draft: false
 tags:
   - 2026-election
 published: 2026-10-22
 cssclasses:
-subtitle: 2026 Los Angeles voter guide, Part II
 bodyClass: no-code-wrap
 ---
 >[!hint] Download a [quick reference guide](https://drive.google.com/file/d/1dA-8IKl3YGzFANGL6d2iFPGF-qykGJz6/view?usp=sharing) with a summary of all recommendations.

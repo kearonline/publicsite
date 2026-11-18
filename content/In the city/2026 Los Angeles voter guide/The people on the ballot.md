@@ -1,11 +1,11 @@
 ---
 title: The people on the ballot
+subtitle: 2026 Los Angeles voter guide
 draft: false
 tags:
   - 2026-election
 published: 2026-10-21
 cssclasses:
-subtitle: 2026 Los Angeles voter guide, Part I
 bodyClass: no-code-wrap
 aliases:
   - voter-guide
