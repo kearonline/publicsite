@@ -41,12 +41,12 @@ configuration:
         highlight: rgba(52, 145, 118, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
-  - source: "./quartz/plugins/Subtitle.tsx"
+  - source: ./quartz/plugins/Subtitle.tsx
     enabled: true
     layout:
-      position: "beforeBody"  # Choices: left, right, beforeBody, afterBody
-      priority: 10            # Lower numbers render higher up in that section
-      condition: "not-index"  # Optional: hides it on your main home page
+      position: beforeBody
+      priority: 10
+      condition: not-index
   - source: "@quartz-community/created-modified-date"
     enabled: true
     options:
@@ -278,6 +278,10 @@ plugins:
       enableInteraction: true
       darkMode: auto
       exportPadding: 20
+    order: 50
+  - source: "@quartz-community/favicon"
+    enabled: true
+    options: {}
     order: 50
 layout:
   groups:
