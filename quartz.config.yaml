@@ -279,10 +279,6 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
-  - source: "@quartz-community/favicon"
-    enabled: true
-    options: {}
-    order: 50
 layout:
   groups:
     toolbar:
