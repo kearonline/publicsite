@@ -2,9 +2,6 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { classNames } from "../util/lang"
 
 const Subtitle: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
-  if (fileData.frontmatter && Object.keys(fileData.frontmatter).length > 0) {
-    console.log("SUBTITLE CHECK:", fileData.slug, fileData.frontmatter)
-  }
   const subtitle = fileData.frontmatter?.subtitle
   if (!subtitle) {
     return null
@@ -15,7 +12,7 @@ const Subtitle: QuartzComponent = ({ fileData, displayClass }: QuartzComponentPr
 
 Subtitle.css = `
 .article-subtitle {
-  margin: -0.5rem 0 1.25rem 0;
+  margin: 0.25rem 0 1.25rem 0;
   font-size: 1.15rem;
   font-weight: 400;
   color: var(--darkgray);

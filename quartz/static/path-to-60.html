@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Path to 60</title>
+<title>Democrats' 2028 path to 60 Senate seats</title>
 <style>
 :root{box-sizing:border-box;color-scheme:light dark}
 *,*::before,*::after{box-sizing:inherit}
 html,body{height:100%}
 body{margin:0;background:var(--bg);color:var(--tx);font:var(--fs)/1.5 var(--font);display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);overflow:hidden}
-header{display:flex;align-items:center;gap:16px;padding:10px 16px;border-bottom:1px solid var(--bd);flex:none}
-.wordmark{font:650 var(--h1)/1.3 var(--hfont);letter-spacing:-.02em;margin:0 auto 0 0;color:var(--sec)}
+header{font-weight:650;display:flex;align-items:center;gap:16px;padding:10px 16px;border-bottom:1px solid var(--bd);flex:none}
+.wordmark{font-size:15px;font-weight:650;letter-spacing:-.02em;white-space:nowrap;flex:none;margin:0 auto 0 0;color:var(--sec)}
 main{flex:1;display:flex;min-height:0}
 #stage{flex:1;min-width:0;overflow-y:auto;padding:24px;display:flex;flex-direction:column;gap:24px;align-items:center;background:repeating-conic-gradient(var(--chk-a) 0% 25%,var(--chk-b) 0% 50%) 50%/22px 22px}
 .sheet{width:100%;max-width:780px;background:var(--card);padding:14px 16px;box-shadow:0 0 0 1px rgba(28,39,51,.18),0 14px 36px rgba(28,39,51,.22)}
@@ -108,8 +108,8 @@ input[type=range]{width:100%;accent-color:var(--d);height:20px;margin-top:6px}
 const THEME={
   font:'Commissioner', // body font stack
   followDarkMode:false,  // false = always light, like the sign tool. true = use the dark palette when the viewer's device is in dark mode
-  headingFont:'Commissioner',        // leave empty to reuse the body font
-  googleFont:'Commissioner',         // optional, e.g. 'Inter:wght@400;600;700' (then set font:'Inter,sans-serif')
+  headingFont:'Commissioner:wght@100..900',        // leave empty to reuse the body font
+  googleFont:'Commissioner:wght@100..900',         // optional, e.g. 'Inter:wght@400;600;700' (then set font:'Inter,sans-serif')
   fontSize:'15px',       // base text size
   titleSize:'15px',    // page title
   bigNumberSize:'2.2rem',// the big seat count
@@ -129,8 +129,8 @@ const CONFIG={
 /* ============ EDIT HERE: ALL TEXT ============ */
 /* HTML is allowed in these strings. {braces} are filled in by the page. */
 const TEXT={
-  pageTitle:"Path to 60",
-  title:"Path to 60",
+  pageTitle:"Democrats' 2028 path to 60 Senate seats",
+  title:"Democrats' 2028 path to 60 Senate seats",
   subtitle:"Democrats start from the 56–44 Senate that emerges from the 2026 midterms (2 independents caucus with them). Only 34 seats are up in 2028. Click a seat to flip it.",
   seatsLabel:"Democratic-caucus seats in this scenario",
   presetsLabel:"Presets",
@@ -144,11 +144,11 @@ const TEXT={
   win:"Filibuster-proof: {n} seats, {spare} to spare.",
   tally:"Of the 34 seats up: Democrats {dm}, Republicans {rep}. Pickups: {gains}. Losses: {loss}. Seats not up in 2028: Democrats {notUpDem}, Republicans {notUpRep}.",
   mapHeading:"Map view",
-  mapNote:"Tap a colored state to flip it. Gray states have no 2028 race.",
+  mapNote:"Tap a state to flip it. Gray states have no 2028 race.",
   mapHint:"Hover or tap a state for details.",
   legD:"Democratic", legR:"Republican", legFlip:"Flipped from today", legOff:"No race",
   geoHeading:"Geographic map",
-  geoNote:"Real state boundaries (low-resolution public data). Click a colored state to flip it.",
+  geoNote:"Real state boundaries (low-resolution public data). Click a state to flip it.",
   geoHint:"Hover or click a state for details.",
   geoLoadFail:"The geographic map library did not load. The tile map above still works.",
   geoDrawFail:"The geographic map could not be drawn. The tile map above still works.",

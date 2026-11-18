@@ -733,6 +733,43 @@ export async function loadQuartzLayout(layoutOverrides?: {
     }
   }
 
+  const RecentNotesModule = await import("../../components/RecentNotes")
+  const PrevNextModule = await import("../../components/PrevNext")
+  const recentNotesComp = RecentNotesModule.default()
+  const prevNextComp = PrevNextModule.default()
+  const seenAfterBody = new Set<unknown[]>()
+  for (const l of allLayouts) {
+    if (Array.isArray(l.afterBody) && !seenAfterBody.has(l.afterBody)) {
+      seenAfterBody.add(l.afterBody)
+      l.afterBody.push(prevNextComp, recentNotesComp)
+    }
+  }
+
+  const ArticleMetaModule = await import("../../components/ArticleMeta")
+  const articleMetaComp = ArticleMetaModule.default()
+  for (const l of seenBeforeBody) {
+    const arr = l as any[]
+    const metaIdx = arr.findIndex((c: any) => c?.name === "ContentMetadata" || c?.displayName === "ContentMetadata")
+    if (metaIdx !== -1) {
+      arr.splice(metaIdx, 1, articleMetaComp)
+    } else {
+      arr.push(articleMetaComp)
+    }
+  }
+
+  const FeaturedBannerModule = await import("../../components/FeaturedBanner")
+  const featuredBannerComp = FeaturedBannerModule.default()
+  const seenHeader = new Set<unknown[]>()
+  for (const l of allLayouts) {
+    if (!Array.isArray(l.header)) {
+      l.header = []
+    }
+    if (!seenHeader.has(l.header)) {
+      seenHeader.add(l.header)
+      l.header.unshift(featuredBannerComp)
+    }
+  }
+
   return { defaults: mergedDefaults, byPageType: mergedByPageType }
 }
 
