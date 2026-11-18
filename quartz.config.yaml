@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
   pageTitle: The Kearlog
-  pageTitleSuffix: ""
+  pageTitleSuffix: " | The Kearlog""
   enableSPA: true
   enablePopovers: true
   analytics:
@@ -41,12 +41,6 @@ configuration:
         highlight: rgba(52, 145, 118, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
-  - source: ./quartz/plugins/Subtitle.tsx
-    enabled: true
-    layout:
-      position: beforeBody
-      priority: 10
-      condition: not-index
   - source: "@quartz-community/created-modified-date"
     enabled: true
     options:
