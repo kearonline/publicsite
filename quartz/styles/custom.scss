@@ -89,6 +89,13 @@ body:has(.featured-banner) {
   }
 }
 
+/* Add this block for mobile */
+@media all and (max-width: 800px) {
+  .page:has(.featured-banner) > #quartz-body > .sidebar.left {
+    top: 1.85rem !important;
+  }
+}
+
 /* full-view-tool-embed */
 body:has(.embed-frame) .page-header .article-title,
 body:has(.embed-frame) .page-header .article-subtitle,
