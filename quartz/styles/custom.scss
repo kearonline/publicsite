@@ -13,6 +13,143 @@
 //  }
 //}
 
+/* EXPLORER BLOCK */
+/* internal-link-padding & font */
+a.internal {
+  font-family: "Courier Prime", Courier, monospace !important;
+  font-size: 0.88rem !important;
+  letter-spacing: -0.03em !important;
+  padding: 0.12rem 0.35rem;
+  border-radius: 4px;
+}
+
+/* --- EXPLORER: COMPACT BRANCHING TREE + CHEVRONS --- */
+.explorer .explorer-content {
+  overflow-x: hidden !important;
+}
+
+.explorer .explorer-content ul {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Indentation & vertical trunk line for nested levels */
+.explorer .explorer-content ul.content {
+  position: relative;
+  margin-left: 0.38rem !important;  /* Centers trunk line directly under parent chevron */
+  padding-left: 0.55rem !important; /* Compact horizontal step per folder level */
+  border-left: none !important;
+}
+
+/* Each row (both folders and pages) */
+.explorer .explorer-content ul li {
+  position: relative;
+  margin: 0 !important;
+  padding-top: 0.12rem !important;
+  padding-bottom: 0.12rem !important;
+  line-height: 1.1 !important;
+  min-width: 0 !important;
+}
+
+/* Vertical spine & horizontal branch tick (├─) */
+.explorer .explorer-content ul.content > li::before {
+  content: "";
+  position: absolute;
+  left: -0.55rem;
+  top: 0;
+  bottom: 0;
+  width: 0.45rem;
+  border-left: 1px solid color-mix(in srgb, var(--gray) 45%, transparent);
+}
+
+.explorer .explorer-content ul.content > li::after {
+  content: "";
+  position: absolute;
+  left: -0.55rem;
+  top: 0.58rem;
+  width: 0.4rem;
+  border-top: 1px solid color-mix(in srgb, var(--gray) 45%, transparent);
+}
+
+/* Stop vertical spine at the horizontal tick on the LAST child (└─) */
+.explorer .explorer-content ul.content > li:last-child::before {
+  bottom: auto;
+  height: 0.58rem;
+}
+
+/* Subtle bottom divider lines between items */
+.explorer .explorer-content ul li:not(:has(.folder-container)),
+.explorer .explorer-content .folder-container {
+  border-bottom: 1px solid color-mix(in srgb, var(--gray) 22%, transparent);
+}
+
+/* Folder container: flex row aligned to the top line of wrapped text */
+.explorer .explorer-content .folder-container {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 0.25rem !important;
+  margin: 0 !important;
+  padding-top: 0.12rem !important;
+  padding-bottom: 0.12rem !important;
+  line-height: 1.1 !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+}
+
+/* Native chevron SVG, sized to match text height */
+.explorer .explorer-content .folder-container svg.folder-icon,
+.explorer .explorer-content .folder-container > svg {
+  display: inline-block !important;
+  opacity: 1 !important;
+  position: static !important;
+  font-size: 0.9rem !important;
+  width: 0.85em !important;
+  height: 0.85em !important;
+  margin-top: 0.12em !important;
+  flex-shrink: 0 !important;
+  cursor: pointer !important;
+}
+
+/* Folder title wrapper */
+.explorer .explorer-content .folder-container div {
+  display: block !important;
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+  line-height: 1.1 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Explorer link & folder typography */
+.explorer .explorer-content ul li a,
+.explorer .explorer-content .folder-container div > a,
+.explorer .explorer-content .folder-container div > button {
+  display: block !important;
+  font-family: "Courier Prime", Courier, monospace !important;
+  font-size: 0.9rem !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.05em !important;
+  line-height: 1.1 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  text-align: left !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+}
+
+/* Align every nested page title's first letter directly under its parent folder's first letter */
+.explorer .explorer-content ul.content > li:not(:has(.folder-container)) > a {
+  padding-left: calc(0.4rem) !important;
+  margin-left: 0 !important;
+}
+/* END EXPLORER BLOCK */
+
+html,
+body {
+  overscroll-behavior-y: contain;
+}
+
 :not(pre) > code {
   white-space: nowrap;
 }
@@ -97,16 +234,17 @@ body:has(.featured-banner) {
 }
 
 /* full-view-tool-embed */
-body:has(.embed-frame) .page-header .article-title,
-body:has(.embed-frame) .page-header .article-subtitle,
-body:has(.embed-frame) .page-header .article-meta,
-body:has(.embed-frame) .page-header .breadcrumb-container,
-body:has(.embed-frame) .page-header [class*="propert"],
-body:has(.embed-frame) [class*="propert"],
-body:has(.embed-frame) .right.sidebar,
-body:has(.embed-frame) footer,
-body:has(.embed-frame) .center > hr,
-body:has(.embed-frame) .page-footer {
+/* Scope only to the main page article, never popovers */
+body:has(#quartz-body .center > article .embed-frame) .page-header .article-title,
+body:has(#quartz-body .center > article .embed-frame) .page-header .article-subtitle,
+body:has(#quartz-body .center > article .embed-frame) .page-header .article-meta,
+body:has(#quartz-body .center > article .embed-frame) .page-header .breadcrumb-container,
+body:has(#quartz-body .center > article .embed-frame) .page-header [class*="propert"],
+body:has(#quartz-body .center > article .embed-frame) [class*="propert"],
+body:has(#quartz-body .center > article .embed-frame) .right.sidebar,
+body:has(#quartz-body .center > article .embed-frame) footer,
+body:has(#quartz-body .center > article .embed-frame) .center > hr,
+body:has(#quartz-body .center > article .embed-frame) .page-footer {
   display: none !important;
 }
 
