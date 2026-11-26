@@ -467,3 +467,79 @@ body:has(.embed-frame) .markdown-preview-view {
 .callout[data-callout="notice"] .callout-content:empty {
   display: none !important;
 }
+
+/* --- COUNTDOWN CARD DESIGN --- */
+.countdown ol {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin-top: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  counter-reset: countdown-rank 11; /* Change 11 to (total items + 1) */
+}
+
+.countdown ol > li {
+  counter-increment: countdown-rank -1;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.9rem;
+  row-gap: 0.45rem;
+  align-items: start;
+  background-color: color-mix(in srgb, var(--lightgray) 45%, var(--light));
+  border: 1px solid color-mix(in srgb, var(--gray) 32%, transparent);
+  border-left: 4px solid var(--secondary);
+  border-radius: 6px;
+  padding: 1rem 1.15rem;
+}
+
+/* Monospace Rank Badge (#10 down to #1) */
+.countdown ol > li::before {
+  content: counter(countdown-rank);
+  grid-column: 1;
+  grid-row: 1;
+  font-family: "Courier Prime", "Victor Mono", monospace;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--secondary);
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+/* Card Header: Track Title — Artist Name */
+.countdown ol > li > p:first-child {
+  grid-column: 2;
+  grid-row: 1;
+  margin: 0 !important;
+  font-size: 1.06rem;
+  line-height: 1.35;
+  color: var(--dark);
+}
+
+.countdown ol > li > p:first-child strong {
+  font-weight: 700;
+}
+
+.countdown ol > li > p:first-child em {
+  font-style: normal;
+  font-variant: all-small-caps;
+  letter-spacing: 0.04em;
+  color: var(--darkgray);
+}
+
+/* Card Body: Liner notes & embeds span full card width */
+.countdown ol > li > *:not(:first-child) {
+  grid-column: 1 / -1;
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--darkgray);
+}
+
+.countdown ol > li > p:nth-child(2) {
+  padding-top: 0.55rem;
+  border-top: 1px dashed color-mix(in srgb, var(--gray) 28%, transparent);
+}
