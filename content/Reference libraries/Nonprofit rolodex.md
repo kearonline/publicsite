@@ -1,5 +1,5 @@
 ---
-title: Nonprofit ecosystem directory
+title: Local nonprofit rolodex
 subtitle: Los Angeles area
 published: 2026-11-23
 updated: 2026-11-23

@@ -1,5 +1,5 @@
 ---
-title: Homeless services misconceptions
+title: Homeless services ecosystem
 subtitle:
 published: 2026-11-24
 updated: 2026-11-24

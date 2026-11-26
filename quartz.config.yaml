@@ -159,6 +159,38 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
+    options:
+    folderClickBehavior: link
+    folderDefaultState: collapsed
+    useSavedState: true
+    sortFn: |
+      (a, b) => {
+        const topOrder = [
+          "running-logs",
+          "civic-beats",
+          "field-notes",
+          "reference-libraries",
+          "open-tools",
+          "top-picks",
+          "vault-cuts",
+        ];
+        const aSlug = (a.slugSegment || a.name || "").toLowerCase();
+        const bSlug = (b.slugSegment || b.name || "").toLowerCase();
+        const aIdx = topOrder.indexOf(aSlug);
+        const bIdx = topOrder.indexOf(bSlug);
+
+        if (aIdx !== -1 && bIdx !== -1) return aIdx - bIdx;
+        if (aIdx !== -1) return -1;
+        if (bIdx !== -1) return 1;
+
+        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
+          return a.displayName.localeCompare(b.displayName, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          });
+        }
+        return a.isFolder ? -1 : 1;
+      }
     layout:
       position: left
       priority: 50
@@ -267,7 +299,7 @@ plugins:
       priority: 15
       display: all
   - source: "@quartz-community/obsidian-plugin-excalidraw"
-    enabled: true
+    enabled: false
     options:
       enableInteraction: true
       darkMode: auto

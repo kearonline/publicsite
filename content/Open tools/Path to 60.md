@@ -1,5 +1,5 @@
 ---
-title: Democrats' 2028 path to 60 Senate seats
+title: Democrats' 2028 path to 60
 alias: path-to-60
 tags:
   - congress

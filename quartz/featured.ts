@@ -14,7 +14,7 @@ export const featuredConfig = {
   /** Below slug add "label:" to customize */
   items: [
     {
-      slug: "Civic-beats/Mayor-Raman's-first-100-days",
+      slug: "Running-logs/Mayor-Raman's-first-100-days",
     },
     {
       slug: "Reference-libraries/Civic-engagement",
