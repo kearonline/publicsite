@@ -14,17 +14,22 @@ export const featuredConfig = {
   /** Below slug add "label:" to customize */
   items: [
     {
-      slug: "In-the-city/Los-Angeles-City-Hall-tracker/Mayor-Raman's-first-100-days",
+      slug: "Civic-beats/Mayor-Raman's-first-100-days",
     },
     {
-      slug: "In-the-city/Civic-engagement-methods",
+      slug: "Reference-libraries/Civic-engagement",
+      label: "Civic engagement methods",
+    },
+        {
+      slug: "Reference-libraries/Homeless-services",
+      label: "Homeless services ecosystem",
+    },
+        {
+      slug: "Reference-libraries/Nonprofit-rolodex",
+      label: "Local nonprofit rolodex",
     },
     {
-      slug: "In-the-city/Neighborhood-sign-generator",
-    },
-    {
-      slug: "In-the-world/Path-to-60",
-      label: "Democrats' 2028 path to 60 Senate seats"
+      slug: "Open-tools/Neighborhood-sign-generator",
     },
   ] satisfies FeaturedItem[],
 }

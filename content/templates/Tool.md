@@ -6,7 +6,6 @@ updated: "{{date:YYYY-MM-DD}}"
 hidePublished: false
 hideUpdated: false
 tags:
-  - tool
 aliases: []
 ---
 
