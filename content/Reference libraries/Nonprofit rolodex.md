@@ -10,11 +10,12 @@ tags:
   - los-angeles
 aliases: []
 ---
-# Housing and homelessness
+<iframe 
+  class="embed-frame" 
+  src="https://airtable.com/embed/appYRSMpYVGOY5Ln7/shrmnhKg1LwfQ20tZ" frameborder="0"
+  loading="lazy"
+  style="background: transparent; border: 1px solid #ccc;"></iframe>
 
-## Homeless services
-
-* **Ascencia** 
-* **Coalition for Responsible Community Development (CRCD)**
-* **People Assisting the Homeless (PATH)**
-
+<div class="tool-banner">
+  If this doesn't work, <a href="https://airtable.com/embed/appYRSMpYVGOY5Ln7/shrmnhKg1LwfQ20tZ" target="_blank" rel="noopener" data-router-ignore>open the document</a> directly. This is updated live via Airtable.
+</div>
