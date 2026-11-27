@@ -9,6 +9,8 @@ tags:
   - minecraft
 aliases: []
 ---
+> [!notice] Like everything else in this folder, this is fictional and written for a Minecraft server's roleplay government.
+
 Good afternoon.
 
 I am extremely honored to be standing here today in the exact spot where just over ten months ago, Mayor Westray cut the ribbon to officially open the Town Hall behind me, marking the beginning of a new era for Willow.

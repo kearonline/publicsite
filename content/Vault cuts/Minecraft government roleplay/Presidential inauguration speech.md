@@ -9,6 +9,8 @@ tags:
   - minecraft
 aliases: []
 ---
+> [!notice] Like everything else in this folder, this is fictional and written for a Minecraft server's roleplay government.
+
 My fellow Redmont citizens,
 
 Almost exactly one year ago, I stood on the inaugural stage at the Government House in Hamilton to host the inaugural ceremonies for President Westray and Vice President Muffins29.
